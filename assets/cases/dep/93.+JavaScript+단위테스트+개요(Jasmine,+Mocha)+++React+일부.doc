@@ -1,0 +1,867 @@
+Message-ID: <363473500.1732.1518497520501.JavaMail.confluence@pconfwas1.skcc.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1731_1952988446.1518497520500"
+
+------=_Part_1731_1952988446.1518497520500
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>93. JavaScript =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8 =EA=
+=B0=9C=EC=9A=94(Jasmine, Mocha) + React =EC=9D=BC=EB=B6=80</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>93. JavaScript =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8 =EA=B0=
+=9C=EC=9A=94(Jasmine, Mocha) + React =EC=9D=BC=EB=B6=80</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1518497520441 {padding: 0px;}
+div.rbtoc1518497520441 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1518497520441 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1518497520441">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-=EC=9E=90=EB=
+=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EC=9D=98=EB=8B=A8=EC=9C=84=ED=85=
+=8C=EC=8A=A4=ED=8A=B8=EB=9E=80?">=EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=
+=BD=ED=8A=B8=EC=9D=98 =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=9E=
+=80?</a></li>=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-=EC=9E=90=EB=
+=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EA=B0=81=ED=95=A8=EC=88=98(funct=
+ion)=EB=93=A4=EC=9D=B4=EC=9B=90=EB=9E=98=EB=AA=A9=EC=A0=81=ED=95=9C=EB=8C=
+=80=EB=A1=9C=EC=9E=98=EB=8F=99=EC=9E=91=ED=95=98=EB=8A=94=EC=A7=80=ED=99=95=
+=EC=9D=B8=ED=95=98=EB=8A=94=ED=85=8C=EC=8A=A4=ED=8A=B8.=ED=85=8C=EC=8A=A4=
+=ED=8A=B8=EC=9D=98=EA=B4=80=EC=8B=AC=EC=9D=B4=ED=95=A8=EC=88=98=EC=9E=90=EC=
+=B2=B4=EC=97=90=EC=9E=88=EA=B8=B0=EB=95=8C=EB=AC=B8=EC=97=90=EA=B0=80=EB=8A=
+=A5=ED=95=98=EB=A9=B4=EB=8B=A4=EC=9D=8C=EC=9D=98=EC=A1=B4=EC=84=B1=EB=93=A4=
+=EB=A1=9C=EB=B6=80=ED=84=B0=EB=8F=85=EB=A6=BD=EC=A0=81=EC=9C=BC=EB=A1=9C=ED=
+=85=8C=EC=8A=A4=ED=8A=B8=ED=95=98=EB=A0=A4=EA=B3=A0=ED=95=A9=EB=8B=88=EB=8B=
+=A4.(1)Browser=EC=9D=98API(2)jsframework=EC=9D=98API(3)=ED=94=84=EB=A1=9C=
+=EA=B7=B8=EB=9E=A8=EC=97=90=EC=84=9C=EB=8F=99=EC=9E=91=ED=95=98=EA=B8=B0=EC=
+=9C=84=ED=95=B4=EC=84=9C=EC=83=9D=EC=84=B1=ED=95=9CAPI=E2=80=BB=EC=9B=90=ED=
+=95=98=EB=8A=94=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=BC=ED=95=A0=EC=88=98=EC=9E=
+=88=EB=8B=A4=EB=A9=B41,2,3=EC=9D=98=EC=BD=94=EB=93=9C=EB=A5=BC=EA=B7=B8=EB=
+=8C=80=EB=A1=9C=EC=82=AC=EC=9A=A9=ED=95=98=EA=B3=A0,=EA=B7=B8=EB=A0=87=EC=
+=A7=80=EC=95=8A=EC=9D=80=EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94Mock=EB=98=90=
+=EB=8A=94Stub=EC=9D=84">&nbsp;=EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=
+=ED=8A=B8 =EA=B0=81 =ED=95=A8=EC=88=98(function) =EB=93=A4=EC=9D=B4 =EC=9B=
+=90=EB=9E=98 =EB=AA=A9=EC=A0=81=ED=95=9C =EB=8C=80=EB=A1=9C =EC=9E=98 =EB=
+=8F=99=EC=9E=91=ED=95=98=EB=8A=94=EC=A7=80 =ED=99=95=EC=9D=B8=ED=95=98=EB=
+=8A=94 =ED=85=8C=EC=8A=A4=ED=8A=B8. =ED=85=8C=EC=8A=A4=ED=8A=B8=EC=9D=98 =
+=EA=B4=80=EC=8B=AC=EC=9D=B4 =ED=95=A8=EC=88=98 =EC=9E=90=EC=B2=B4=EC=97=90 =
+=EC=9E=88=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =EA=B0=80=EB=8A=A5=ED=95=98=
+=EB=A9=B4 =EB=8B=A4=EC=9D=8C =EC=9D=98=EC=A1=B4=EC=84=B1=EB=93=A4=EB=A1=9C=
+=EB=B6=80=ED=84=B0 =EB=8F=85=EB=A6=BD=EC=A0=81=EC=9C=BC=EB=A1=9C =ED=85=8C=
+=EC=8A=A4=ED=8A=B8=ED=95=98=EB=A0=A4=EA=B3=A0 =ED=95=A9=EB=8B=88=EB=8B=A4. =
+&nbsp;(1) Browser=EC=9D=98 API &nbsp;(2) js framework=EC=9D=98 API &nbsp;(3=
+) =ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=A8=EC=97=90=EC=84=9C =EB=8F=99=EC=9E=91=
+=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=B4=EC=84=9C =EC=83=9D=EC=84=B1=ED=95=9C =
+API =E2=80=BB =EC=9B=90=ED=95=98=EB=8A=94 =ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=
+=BC =ED=95=A0 =EC=88=98 =EC=9E=88=EB=8B=A4=EB=A9=B4 1, 2, 3=EC=9D=98 =EC=BD=
+=94=EB=93=9C=EB=A5=BC =EA=B7=B8=EB=8C=80=EB=A1=9C =EC=82=AC=EC=9A=A9=ED=95=
+=98=EA=B3=A0, =EA=B7=B8=EB=A0=87=EC=A7=80 =EC=95=8A=EC=9D=80 =EA=B2=BD=EC=
+=9A=B0=EC=97=90=EB=8A=94 Mock =EB=98=90=EB=8A=94 Stub=EC=9D=84</a></li>=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-=EC=9E=90=EB=
+=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=
+=A4=ED=8A=B8=EB=8A=94=ED=95=84=EC=9A=94=ED=95=9C=EA=B0=80?">=EC=9E=90=EB=B0=
+=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=
+=A4=ED=8A=B8=EB=8A=94 =ED=95=84=EC=9A=94=ED=95=9C=EA=B0=80?</a></li>=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-JavaScript=EB=
+=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=ED=88=B4=EB=B9=84=EA=B5=90">Java=
+Script =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8 =ED=88=B4 =EB=B9=84=EA=
+=B5=90</a></li>=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-.Jasmine=EC=83=
+=98=ED=94=8C=EC=BD=94=EB=93=9C">. Jasmine =EC=83=98=ED=94=8C =EC=BD=94=EB=
+=93=9C</a></li>=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-.Mocha=EC=83=
+=98=ED=94=8C=EC=BD=94=EB=93=9C">. Mocha =EC=83=98=ED=94=8C =EC=BD=94=EB=93=
+=9C</a></li>=20
+<li><a href=3D"#id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EA=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-.=EC=9E=91=EC=
+=84=B1=ED=95=9C=ED=85=8C=EC=8A=A4=ED=8A=B8=EC=BD=94=EB=93=9C=EC=9D=98=EC=9E=
+=90=EB=8F=99=EC=88=98=ED=96=89=EB=B0=A9=EB=B2=95-Karma,PhantomJS=EB=93=B1">=
+. =EC=9E=91=EC=84=B1=ED=95=9C =ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=BD=94=EB=93=
+=9C=EC=9D=98 =EC=9E=90=EB=8F=99 =EC=88=98=ED=96=89 =EB=B0=A9=EB=B2=95 - Kar=
+ma, PhantomJS =EB=93=B1</a></li>=20
+</ul>=20
+</div>
+<p></p>
+<p><br></p>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-=EC=9E=90=EB=B0=94=
+=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EC=9D=98=EB=8B=A8=EC=9C=84=ED=85=8C=EC=
+=8A=A4=ED=8A=B8=EB=9E=80?">=EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=
+=8A=B8=EC=9D=98 =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=9E=80?</h1=
+>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-=EC=9E=90=EB=B0=94=
+=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EA=B0=81=ED=95=A8=EC=88=98(function)=
+=EB=93=A4=EC=9D=B4=EC=9B=90=EB=9E=98=EB=AA=A9=EC=A0=81=ED=95=9C=EB=8C=80=EB=
+=A1=9C=EC=9E=98=EB=8F=99=EC=9E=91=ED=95=98=EB=8A=94=EC=A7=80=ED=99=95=EC=9D=
+=B8=ED=95=98=EB=8A=94=ED=85=8C=EC=8A=A4=ED=8A=B8.=ED=85=8C=EC=8A=A4=ED=8A=
+=B8=EC=9D=98=EA=B4=80=EC=8B=AC=EC=9D=B4=ED=95=A8=EC=88=98=EC=9E=90=EC=B2=B4=
+=EC=97=90=EC=9E=88=EA=B8=B0=EB=95=8C=EB=AC=B8=EC=97=90=EA=B0=80=EB=8A=A5=ED=
+=95=98=EB=A9=B4=EB=8B=A4=EC=9D=8C=EC=9D=98=EC=A1=B4=EC=84=B1=EB=93=A4=EB=A1=
+=9C=EB=B6=80=ED=84=B0=EB=8F=85=EB=A6=BD=EC=A0=81=EC=9C=BC=EB=A1=9C=ED=85=8C=
+=EC=8A=A4=ED=8A=B8=ED=95=98=EB=A0=A4=EA=B3=A0=ED=95=A9=EB=8B=88=EB=8B=A4.(1=
+)Browser=EC=9D=98API(2)jsframework=EC=9D=98API(3)=ED=94=84=EB=A1=9C=EA=B7=
+=B8=EB=9E=A8=EC=97=90=EC=84=9C=EB=8F=99=EC=9E=91=ED=95=98=EA=B8=B0=EC=9C=84=
+=ED=95=B4=EC=84=9C=EC=83=9D=EC=84=B1=ED=95=9CAPI=E2=80=BB=EC=9B=90=ED=95=98=
+=EB=8A=94=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=BC=ED=95=A0=EC=88=98=EC=9E=88=EB=
+=8B=A4=EB=A9=B41,2,3=EC=9D=98=EC=BD=94=EB=93=9C=EB=A5=BC=EA=B7=B8=EB=8C=80=
+=EB=A1=9C=EC=82=AC=EC=9A=A9=ED=95=98=EA=B3=A0,=EA=B7=B8=EB=A0=87=EC=A7=80=
+=EC=95=8A=EC=9D=80=EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94Mock=EB=98=90=EB=8A=
+=94Stub=EC=9D=84"><span style=3D"font-size: 11.0pt;">&nbsp;=EC=9E=90=EB=B0=
+=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =EA=B0=81 =ED=95=A8=EC=88=98(functi=
+on) =EB=93=A4=EC=9D=B4 =EC=9B=90=EB=9E=98 =EB=AA=A9=EC=A0=81=ED=95=9C =EB=
+=8C=80=EB=A1=9C =EC=9E=98 =EB=8F=99=EC=9E=91=ED=95=98=EB=8A=94=EC=A7=80 =ED=
+=99=95=EC=9D=B8=ED=95=98=EB=8A=94 =ED=85=8C=EC=8A=A4=ED=8A=B8. </span><br><=
+span style=3D"font-size: 11.0pt;">=ED=85=8C=EC=8A=A4=ED=8A=B8=EC=9D=98 =EA=
+=B4=80=EC=8B=AC=EC=9D=B4 =ED=95=A8=EC=88=98 =EC=9E=90=EC=B2=B4=EC=97=90 =EC=
+=9E=88=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =EA=B0=80=EB=8A=A5=ED=95=98=EB=
+=A9=B4 =EB=8B=A4=EC=9D=8C =EC=9D=98=EC=A1=B4=EC=84=B1=EB=93=A4=EB=A1=9C=EB=
+=B6=80=ED=84=B0 =EB=8F=85=EB=A6=BD=EC=A0=81=EC=9C=BC=EB=A1=9C =ED=85=8C=EC=
+=8A=A4=ED=8A=B8=ED=95=98=EB=A0=A4=EA=B3=A0 =ED=95=A9=EB=8B=88=EB=8B=A4.</sp=
+an><br><span style=3D"font-size: 11.0pt;">&nbsp;(1) Browser=EC=9D=98 API</s=
+pan><br><span style=3D"font-size: 11.0pt;">&nbsp;(2) js framework=EC=9D=98 =
+API</span><br><span style=3D"font-size: 11.0pt;">&nbsp;(3) =ED=94=84=EB=A1=
+=9C=EA=B7=B8=EB=9E=A8=EC=97=90=EC=84=9C =EB=8F=99=EC=9E=91=ED=95=98=EA=B8=
+=B0 =EC=9C=84=ED=95=B4=EC=84=9C =EC=83=9D=EC=84=B1=ED=95=9C API</span><br><=
+span style=3D"font-size: 11.0pt;">=E2=80=BB =EC=9B=90=ED=95=98=EB=8A=94 =ED=
+=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=BC =ED=95=A0 =EC=88=98 =EC=9E=88=EB=8B=A4=EB=
+=A9=B4 1, 2, 3=EC=9D=98 =EC=BD=94=EB=93=9C=EB=A5=BC =EA=B7=B8=EB=8C=80=EB=
+=A1=9C =EC=82=AC=EC=9A=A9=ED=95=98=EA=B3=A0, =EA=B7=B8=EB=A0=87=EC=A7=80 =
+=EC=95=8A=EC=9D=80 =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94 Mock =EB=98=90=EB=
+=8A=94 Stub=EC=9D=84 </span></h1>
+<p><span style=3D"font-size: 11.0pt;">&nbsp;&nbsp; =EB=A7=8C=EB=93=A4=EC=96=
+=B4=EC=84=9C =ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=BC =ED=95=A9=EB=8B=88=EB=8B=
+=A4</span></p>
+<p><span style=3D"font-size: 11.0pt;">=E2=80=BB =EB=8B=A8=EC=9C=84=ED=85=8C=
+=EC=8A=A4=ED=8A=B8=EB=8A=94 =ED=95=9C=EA=B3=84=EA=B0=80 =EC=9E=88=EC=8A=B5=
+=EB=8B=88=EB=8B=A4. =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=8A=94 =
+=EC=9E=91=EC=84=B1=EB=90=9C =EA=B8=B0=EB=8A=A5=EC=97=90 =EB=8C=80=ED=95=B4=
+=EC=84=9C=EB=A7=8C =ED=85=8C=EC=8A=A4=ED=8A=B8=ED=95=98=EB=8A=94 =EA=B2=83=
+=EC=9D=B4=EB=A9=B0 =EB=B3=B5=ED=95=A9=EC=A0=81=EC=9C=BC=EB=A1=9C </span></p=
+>
+<p><span style=3D"font-size: 11.0pt;">&nbsp;=EB=8F=99=EC=9E=91=EB=90=98=EC=
+=96=B4=EC=84=9C =EB=B0=9C=EC=83=9D=ED=95=98=EB=8A=94 =EC=97=90=EB=9F=AC(int=
+egration error)=EB=82=98 =EC=8B=9C=EC=8A=A4=ED=85=9C =EB=A0=88=EB=B2=A8=EC=
+=9D=98 =EC=97=90=EB=9F=AC=EC=97=90 =EB=8C=80=ED=95=B4=EC=84=9C =EB=8B=B5=EC=
+=9D=84 =EC=A3=BC=EC=A7=80=EB=8A=94 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4</sp=
+an></p>
+<p><span style=3D"font-size: 11.0pt;">(=EB=B0=9C=EC=B7=8C : </span><a href=
+=3D"http://okjungsoo.tistory.com/7954104" class=3D"external-link" rel=3D"no=
+follow"><span style=3D"font-size: 11.0pt;"><u><span style=3D"color: rgb(0,1=
+02,204);">http://okjungsoo.tistory.com/7954104</span></u></span></a><span s=
+tyle=3D"font-size: 11.0pt;">)</span></p>
+<p><br></p>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-=EC=9E=90=EB=B0=94=
+=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=
+=8A=B8=EB=8A=94=ED=95=84=EC=9A=94=ED=95=9C=EA=B0=80?">=EC=9E=90=EB=B0=94=EC=
+=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=
+=8A=B8=EB=8A=94 =ED=95=84=EC=9A=94=ED=95=9C=EA=B0=80?</h1>
+<p>&nbsp;=EC=9D=B4=EB=9F=B0 =EC=A7=88=EB=AC=B8=EA=B3=BC =EB=8C=80=EB=8B=B5=
+=EC=9D=84 =ED=95=9C=EB=8B=A4=EB=A9=B4 =EB=88=84=EA=B5=B0=EA=B0=80=EB=8A=94 =
+=EA=B5=89=EC=9E=A5=ED=9E=88 =EB=92=A4=EB=96=A8=EC=96=B4=EC=A7=84 =EC=82=AC=
+=EB=9E=8C=EC=9D=B4=EB=9D=BC=EA=B3=A0 =EB=82=98=EB=AC=B4=EB=9E=84 =EA=B2=83=
+=EC=9D=B4=EB=8B=A4.</p>
+<p><span>=EC=99=9C=EB=83=90=ED=95=98=EB=A9=B4 =EC=9D=B4=EB=AF=B8 =EC=9E=90=
+=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EB=8A=94 =EA=B8=B0=EC=A1=B4=
+=EC=9D=98&nbsp;</span><span>=EC=98=81=EC=97=AD=EC=9D=84 =EB=9B=B0=EC=96=B4=
+=EB=84=98=EC=96=B4 =EB=8B=A4=EC=96=91=ED=95=9C =EC=9A=A9=EB=8F=84, =EC=96=
+=B4=EB=96=A4 =EA=B2=BD=EC=9A=B0=EB=8A=94 =EC=A3=BC =EA=B0=9C=EB=B0=9C=EC=96=
+=B8=EC=96=B4=EB=A1=9C =EC=9E=90=EB=A6=AC=EB=A7=A4=EA=B9=80=EC=9D=84 </span>=
+</p>
+<p><span><span>=ED=96=88=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=9D=B4=EB=8B=A4</spa=
+n> <span>&nbsp;- =ED=95=98=EC=A7=80=EB=A7=8C =EC=A0=84=ED=86=B5=EC=A0=81=EC=
+=9D=B8 HTML+=EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =ED=99=
+=98=EA=B2=BD=EC=9D=B4=EB=9D=BC=EB=A9=B4 No=EB=9D=BC=EA=B3=A0 =EB=8B=B5=ED=
+=95=A0 =EC=88=98=EB=8F=84 =EC=9E=88=EB=8B=A4.&nbsp;</span>&nbsp;<span>&nbsp=
+; </span></span></p>
+<p><span><span><span><span>=E2=80=9C=EC=8A=A4=ED=94=84=EB=A7=81=ED=94=84=EB=
+=A0=88=EC=9E=84=EC=9B=8C=ED=81=AC=EC=97=90=EC=84=9C Controller=EC=97=90 =EB=
+=8C=80=ED=95=9C =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=8A=94 =ED=
+=95=84=EC=9A=94=ED=95=9C=EA=B0=80?=E2=80=9D =EB=9D=BC=EB=8A=94 =EC=A7=88=EB=
+=AC=B8=EA=B3=BC =EC=9C=A0=EC=82=AC=ED=95=A0 =EC=88=98=EB=8F=84 =EC=9E=88=EB=
+=8B=A4.&nbsp;</span>&nbsp;<span>&nbsp; </span></span></span></span></p>
+<p><span><span>=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=BC =ED=95=A0 =EC=88=98 =EC=
+=9E=88=EB=8A=94 =EA=B2=83=EA=B3=BC =ED=95=B4=EC=95=BC =ED=95=98=EB=8A=94=EA=
+=B0=80=EB=8A=94 =EB=8B=A4=EB=A5=B8 =EC=A7=88=EB=AC=B8=EA=B3=BC =EB=8B=B5=EB=
+=B3=80=EC=9D=B4=EB=8B=A4</span> <span>&nbsp;- =EC=A0=84=ED=86=B5=EC=A0=81=
+=EC=9D=B8 HTML+=EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =ED=
+=99=98=EA=B2=BD=EC=9D=B4=EC=96=B4=EB=8F=84 </span></span></p>
+<p><span><span>=ED=8A=B9=EC=A0=95 =EC=9A=A9=EB=8F=84=EC=9D=98 =EC=9E=90=EB=
+=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =ED=95=A8=EC=88=98=EC=97=90 =EB=
+=8C=80=ED=95=B4=EC=84=9C=EB=8A=94 Yes=EC=9D=B4=EB=8B=A4.&nbsp;</span>&nbsp;=
+<span>&nbsp; </span></span></p>
+<p><br></p>
+<p><span><span>=EA=B3=B5=ED=86=B5=EC=9C=BC=EB=A1=9C =EC=82=AC=EC=9A=A9=EB=
+=90=98=EB=8A=94 =EC=9E=90=EB=B0=94 =EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8, =
+=EC=9B=B9 =EB=A6=AC=EC=86=8C=EC=8A=A4=EC=97=90 =EC=9D=98=EC=A1=B4=EC=84=B1=
+=EC=9D=B4 =EC=97=86=EC=9D=B4 =EB=A1=9C=EC=A7=81=EC=9D=B4 =EC=A3=BC=EC=9A=94=
+ =EB=82=B4=EC=9A=A9=EC=9D=B8 =EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=
+=ED=8A=B8 =ED=95=A8=EC=88=98=EC=97=90 </span></span></p>
+<p><span>=EB=8C=80=ED=95=B4=EC=84=9C=EB=8A=94 =EB=8B=A8=EC=9C=84=ED=85=8C=
+=EC=8A=A4=ED=8A=B8=EA=B0=80&nbsp;</span><span>=ED=95=84=EC=9A=94=ED=95=98=
+=EB=8B=A4. =EC=98=88=EB=A5=BC =EB=93=A4=EC=96=B4 =EC=83=9D=EA=B0=81=ED=95=
+=B4=EB=B3=B4=EB=9D=BC =ED=8A=B9=EC=A0=95 =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=
+=B8 =ED=8C=A8=ED=84=B4=EC=9D=84 =EC=B2=B4=ED=81=AC=ED=95=98=EB=8A=94 =EA=B3=
+=B5=ED=86=B5 =EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EA=B0=
+=80 </span></p>
+<p><span>=EC=9E=88=EB=8A=94=EB=8D=B0 =EC=9D=B4=EB=A5=BC =EA=B0=81 =EC=82=AC=
+=EC=9D=B4=ED=8A=B8=EC=9D=98 =EC=83=81=ED=99=A9=EC=97=90 =EB=94=B0=EB=9D=BC&=
+nbsp;</span><span>=EC=82=AC=EB=9E=8C=EC=9D=B4 =EB=A8=B8=EB=A6=AC=EB=A1=9C =
+=EC=83=9D=EA=B0=81=ED=95=B4=EC=84=9C =ED=85=8C=EC=8A=A4=ED=8A=B8=ED=95=9C=
+=EB=8B=A4=EB=A9=B4 =EB=A7=8E=EC=9D=80 =EA=B2=B0=ED=95=A8=EC=9D=B4 =EC=9E=A0=
+=EC=9E=AC=EB=90=98=EC=96=B4 =EC=9E=88=EC=9D=84 =EA=B2=83=EC=9D=B4=EB=8B=A4<=
+/span>&nbsp;<span>&nbsp;</span></p>
+<p><span>- =ED=81=B4=EB=9D=BC=EC=9D=B4=EC=96=B8=ED=8A=B8 =EC=98=81=EC=97=AD=
+=EC=9D=80 AJAX=EC=B2=98=EB=9F=BC =EA=B8=B0=EC=A1=B4=EC=9D=98 =EB=8B=A8=EC=
+=88=9C=ED=95=9C html+javascript=EC=97=90=EC=84=9C =EB=8D=94 =EB=82=98=EC=95=
+=84=EA=B0=80 =EB=8D=94 =EB=B3=B5=EC=9E=A1=ED=95=B4=EC=A7=84 =ED=81=B4=EB=9D=
+=BC=EC=9D=B4=EC=96=B8=ED=8A=B8=EB=A5=BC </span></p>
+<p><span>=EA=B0=96=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 </span><span>=EC=84=
+=9C=EB=B2=84=EC=82=AC=EC=9D=B4=EB=93=9C =EB=98=90=ED=95=9C NodeJS=EC=B2=98=
+=EB=9F=BC Javascript=EB=A1=9C =EA=B0=9C=EB=B0=9C=ED=95=98=EB=8A=94 =EA=B2=
+=BD=EC=9A=B0=EB=8F=84 =EC=9E=88=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =EC=9E=
+=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EC=97=90 =EB=8C=80=ED=95=
+=9C </span></p>
+<p><span>=ED=85=8C=EC=8A=A4=ED=8A=B8 =EB=B0=A9=EB=B2=95=EC=9D=98 =ED=95=84=
+=EC=9A=94=EC=84=B1=EB=8F=84 =EC=BB=A4=EC=A1=8C=EB=8B=A4</span></p>
+<p><br></p>
+<p><span>&nbsp;- <a class=3D"external-link" href=3D"https://blog.outsider.n=
+e.kr/673" rel=3D"nofollow">https://blog.outsider.ne.kr/673</a>"</span></p>
+<p><span>&nbsp; "=EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EC=
+=97=90=EC=84=9C=EC=9D=98 =EC=9C=A0=EB=8B=9B=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=
+=8A=94 =EC=97=AC=EB=9F=AC =EB=B2=88 =EC=8B=9C=EB=8F=84=ED=95=98=EA=B8=B0=EB=
+=8A=94 =ED=96=88=EC=97=88=EB=8A=94=EB=8D=B0 =EC=9E=98 =EB=90=98=EC=A7=80 =
+=EC=95=8A=EC=95=98=EC=8A=B5=EB=8B=88=EB=8B=A4. =EA=B8=B0=EB=B3=B8=EC=A0=81=
+=EC=9C=BC=EB=A1=9C UI=EB=9E=91 </span></p>
+<p><span>&nbsp;&nbsp;=EC=9D=98=EC=A1=B4=EC=84=B1=EC=9D=B4 =ED=81=AC=EA=B8=
+=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =ED=85=8C=EC=8A=A4=ED=8A=B8=ED=95=98=EA=B8=
+=B0 =EC=96=B4=EB=A0=A4=EC=9B=A0=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=9D=B8=EB=8D=
+=B0 node.js=EB=A5=BC =ED=95=98=EB=A9=B4=EC=84=9C =EC=84=9C=EB=B2=84=EC=82=
+=AC=EC=9D=B4=EB=93=9C=EC=9D=B4=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =EB=8B=
+=A4=EC=8B=9C </span></p>
+<p><span>&nbsp; =EC=9C=A0=EB=8B=9B=ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=BC =ED=
+=95=98=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4=E2=80=9D</span>&nbsp;<=
+/p>
+<p><br></p>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-JavaScript=EB=8B=A8=
+=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=ED=88=B4=EB=B9=84=EA=B5=90">JavaScript=
+ =EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8 =ED=88=B4 =EB=B9=84=EA=B5=90=
+</h1>
+<p><a href=3D"https://raygun.com/blog/javascript-unit-testing-frameworks/" =
+class=3D"external-link" rel=3D"nofollow">https://raygun.com/blog/javascript=
+-unit-testing-frameworks/<br></a></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 55.=
+01%;height: 531.0px;">
+<colgroup>
+<col style=3D"width: 13.76%;">
+<col style=3D"width: 32.69%;">
+<col style=3D"width: 34.28%;">
+<col style=3D"width: 19.23%;">
+</colgroup>
+<tbody>
+<tr>
+<th style=3D"text-align: center;" class=3D"confluenceTh">=ED=95=AD=EB=AA=A9=
+</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Jasmine</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">Mocha</th>
+<th style=3D"text-align: center;" class=3D"confluenceTh">QUnit</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EC=84=A4=EB=AA=85</td>
+<td class=3D"confluenceTd"><span>BDD=EB=A5=BC =EC=A7=80=EC=9B=90=ED=95=98=
+=EB=8A=94 =EC=9E=90=EB=B0=94=EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8 =ED=85=8C=
+=EC=8A=A4=ED=8A=B8 =ED=94=84=EB=A0=88=EC=9E=84=EC=9B=8C=ED=81=AC</span></td=
+>
+<td class=3D"confluenceTd"><p><span>simple, flexible, fun javascript test f=
+ramework for node.js &amp; the browser</span></p><p><span>=ED=98=84=EC=9E=
+=AC=EB=8A=94 =EA=B0=80=EC=9E=A5 =EB=84=90=EB=A6=AC =EC=93=B0=EC=9D=B4=EB=8A=
+=94 JS =ED=85=8C=EC=8A=A4=ED=8A=B8 =ED=88=B4</span></p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=ED=9E=88=EC=8A=A4=ED=86=A0=EB=A6=AC</td>
+<td class=3D"confluenceTd"><span>=EA=B8=B0=EC=A1=B4=EC=9D=98 JSUnit=EC=9D=
+=84 =EB=B3=B4=EC=99=84=ED=95=98=EC=97=AC 2010=EB=85=84 =EB=A7=8C=EB=93=A4=
+=EC=96=B4=EC=A7=84 =ED=88=B4(Pivotal Labs)</span></td>
+<td class=3D"confluenceTd"><span>=EA=B8=B0=EC=A1=B4=EC=9D=98 Expresso=EB=A5=
+=BC =EA=B8=B0=EB=B0=98=EC=9C=BC=EB=A1=9C 2011=EB=85=84 =EB=A7=8C=EB=93=A4=
+=EC=96=B4=EC=A7=84 =ED=88=B4</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EB=9D=BC=EC=9D=B4=EC=84=A0=EC=8A=A4</td>
+<td class=3D"confluenceTd"><span>=EC=98=A4=ED=94=88=EC=86=8C=EC=8A=A4(MIT L=
+icense)</span></td>
+<td class=3D"confluenceTd"><span>=EC=98=A4=ED=94=88=EC=86=8C=EC=8A=A4(MIT L=
+icense)</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EC=9B=B9=EC=82=AC=EC=9D=B4=ED=8A=B8</td>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"http://jasmin=
+e.github.io/" rel=3D"nofollow"><span>http://jasmine.github.io</span></a></t=
+d>
+<td class=3D"confluenceTd"><a href=3D"https://mochajs.org/" class=3D"extern=
+al-link" rel=3D"nofollow"><span>https://mochajs.org/</span></a></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EC=B5=9C=EC=8B=A0=EB=B2=84=EC=A0=84</td>
+<td class=3D"confluenceTd"><s><span>2.4(2015=EB=85=8412=EC=9B=94)</span></s=
+></td>
+<td class=3D"confluenceTd"><s><span>2.4.5 (2016=EB=85=84 1=EC=9B=94)</span>=
+</s></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;=EB=AC=B8=EB=B2=95</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>BDD =ED=8F=AC=EB=A9=A7=
+</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>BDD, TDD =EB=93=B1=EC=
+=9D=98 =ED=8F=AC=EB=A9=A7 =EC=A7=80=EC=9B=90</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Assertions</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>should, expect and ass=
+ert =EC=A0=9C=EA=B3=B5</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>Chai =EC=99=80 =EA=B0=
+=99=EC=9D=80 assertion library =ED=99=9C=EC=9A=A9</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Mocking</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>Spy =ED=98=95=ED=83=9C=
+ =EC=A0=9C=EA=B3=B5</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>Sinon(Spies, stubs and=
+ mocks) =ED=99=9C=EC=9A=A9</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Asynchronous</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>=EC=A7=80=EC=9B=90</sp=
+an></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>=EC=A7=80=EC=9B=90</sp=
+an></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Faking Server</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>=EB=B3=84=EB=8F=84 =ED=
+=99=95=EC=9E=A5=EB=AA=A8=EB=93=88 =EC=A7=80=EC=9B=90</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;<span>=EC=A7=80=EC=9B=90</sp=
+an></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-.Jasmine=EC=83=98=ED=
+=94=8C=EC=BD=94=EB=93=9C">. Jasmine =EC=83=98=ED=94=8C =EC=BD=94=EB=93=9C</=
+h1>
+<p>=ED=8A=9C=ED=86=A0=EB=A6=AC=EC=96=BC: <a href=3D"https://howtodoinjava.c=
+om/scripting/javascript/jasmine-javascript-unit-testing-tutorial/" class=3D=
+"external-link" rel=3D"nofollow">https://howtodoinjava.com/scripting/javasc=
+ript/jasmine-javascript-unit-testing-tutorial/</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>=ED=85=8C=EC=8A=A4=ED=8A=B8 =EB=8C=80=EC=83=81 =EA=B0=9C=EB=B0=9C =EC=BD=
+=94=EB=93=9C</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">MathUtils =3D f=
+unction() {};
+=20
+MathUtils.prototype.sum =3D function(number1, number2) {
+        return number1 + number2;
+}
+=20
+MathUtils.prototype.substract =3D function(number1, number2) {
+    return number1 - number2;
+}
+=20
+MathUtils.prototype.multiply =3D function(number1, number2) {
+    return number1 * number2;
+}
+=20
+MathUtils.prototype.divide =3D function(number1, number2) {
+    return number1 / number2;
+}
+=20
+MathUtils.prototype.average =3D function(number1, number2) {
+    return (number1 + number2) / 2;
+}
+=20
+MathUtils.prototype.factorial =3D function(number) {
+    if (number &lt; 0) {
+        throw new Error("There is no factorial for negative numbers");
+    } else if (number =3D=3D 1 || number =3D=3D 0) {
+        return 1;
+    } else {
+        return number * this.factorial(number - 1);
+    }
+}
+
+</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Test Code</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">describe("MathU=
+tils", function() {
+    var calc;
+=20
+    //This will be called before running each spec
+    beforeEach(function() {
+        calc =3D new MathUtils();
+    });
+=20
+    describe("when calc is used to peform basic math operations", function(=
+){
+        =20
+        //Spec for sum operation
+        it("should be able to calculate sum of 3 and 5", function() {
+            expect(calc.sum(3,5)).toEqual(8);
+        });
+=20
+        //Spec for multiply operation
+        it("should be able to multiply 10 and 40", function() {
+            expect(calc.multiply(10, 40)).toEqual(400);
+        });
+=20
+        //Spec for factorial operation for positive number
+        it("should be able to calculate factorial of 9", function() {
+            expect(calc.factorial(9)).toEqual(362880);
+        });
+        =20
+        //Spec for factorial operation for negative number
+        it("should be able to throw error in factorial operation when the n=
+umber is negative", function() {
+            expect(function() {=20
+                calc.factorial(-7)
+            }).toThrowError(Error);
+        });
+        =20
+    });
+});
+
+</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>TestRunner</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">&lt;!DOCTYPE h=
+tml&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=3D"utf-8"&gt;
+    &lt;title&gt;Jasmine Spec Runner v2.4.1&lt;/title&gt;
+    =20
+    &lt;link rel=3D"shortcut icon" type=3D"image/png" href=3D"lib/jasmine-2=
+.4.1/jasmine_favicon.png"&gt;
+    &lt;link rel=3D"stylesheet" href=3D"lib/jasmine-2.4.1/jasmine.css"&gt;
+    =20
+    &lt;script src=3D"lib/jasmine-2.4.1/jasmine.js"&gt;&lt;/script&gt;
+    &lt;script src=3D"lib/jasmine-2.4.1/jasmine-html.js"&gt;&lt;/script&gt;
+    &lt;script src=3D"lib/jasmine-2.4.1/boot.js"&gt;&lt;/script&gt;
+    =20
+    &lt;!-- include source files here... --&gt;
+    &lt;script src=3D"src/Player.js"&gt;&lt;/script&gt;
+    &lt;script src=3D"src/Song.js"&gt;&lt;/script&gt;
+    =20
+    &lt;!-- include spec files here... --&gt;
+    &lt;script src=3D"spec/SpecHelper.js"&gt;&lt;/script&gt;
+    &lt;script src=3D"spec/PlayerSpec.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+=20
+&lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>=20
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-.Mocha=EC=83=98=ED=
+=94=8C=EC=BD=94=EB=93=9C">. Mocha =EC=83=98=ED=94=8C =EC=BD=94=EB=93=9C</h1=
+>
+<p>=ED=99=98=EA=B2=BD=EC=84=A4=EC=A0=95 =EB=93=B1 : <a href=3D"https://www.=
+sitepoint.com/unit-test-javascript-mocha-chai/" class=3D"external-link" rel=
+=3D"nofollow">https://www.sitepoint.com/unit-test-javascript-mocha-chai/</a=
+></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>=ED=85=8C=EC=8A=A4=ED=8A=B8 =EB=8C=80=EC=83=81 =EA=B0=9C=EB=B0=9C=EC=BD=
+=94=EB=93=9C</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">calc.js
+exports.add =3D function(i, j) {
+ =09return i + j;=20
+};
+
+exports.mul =3D function(i, j) {
+ =09return i * j;=20
+};
+
+</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>=ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">var assert =3D =
+require('assert');
+var calc =3D require('./calc.js');
+// Tests are hierarchical. Here we define a test suite for our calculator.=
+=20
+
+
+describe('Calculator Tests', function() {
+ =09describe('Addition Tests', function() {
+ =09=09it('returns 1 + 1 =3D 2', function(done) {
+ =09=09=09assert.equal(calc.add(1, 1), 2);
+ =09=09=09done(); =09=09
+=09=09});
+=09=09it('returns 1 + -1 =3D 0', function(done) {
+ =09=09=09assert.equal(calc.add(1, -1), 0);
+ =09=09=09done(); =09=09
+=09=09}); =09
+=09});
+
+=09describe('Multiplication Tests', function() {
+ =09=09it('returns 2 * 2 =3D 4', function(done) {
+ =09=09=09assert.equal(calc.mul(2, 2), 4);
+ =09=09=09done(); =09=09
+=09=09});
+=09=09it('returns 0 * 4 =3D 4', function(done) {
+ =09=09=09assert.equal(calc.mul(2, 2), 4);
+ =09=09=09done(); =09=09
+=09=09}); =09
+=09});=20
+});</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>=ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=8B=A4=ED=96=89 =EC=8A=A4=ED=81=AC=EB=A6=
+=BD=ED=8A=B8</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">&lt;!DOCTYPE h=
+tml&gt;=20
+&lt;html&gt;  =20
+&lt;head&gt;    =20
+&lt;title&gt;Mocha Tests&lt;/title&gt;    =20
+&lt;link rel=3D"stylesheet" href=3D"node_modules/mocha/mocha.css"&gt;  =20
+&lt;/head&gt;  =20
+
+
+&lt;body&gt;    =20
+    &lt;div id=3D"mocha"&gt;&lt;/div&gt;    =20
+    &lt;script src=3D"node_modules/mocha/mocha.js"&gt;&lt;/script&gt;    =
+=20
+    &lt;script src=3D"node_modules/chai/chai.js"&gt;&lt;/script&gt;    =20
+    &lt;script&gt;mocha.setup('bdd')&lt;/script&gt;
+    &lt;!-- load code you want to test here --&gt;
+    &lt;!-- load your test files here --&gt;
+    &lt;script&gt;       mocha.run();     &lt;/script&gt;  =20
+&lt;/body&gt;=20
+&lt;/html&gt;</pre>=20
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-93.JavaScript=EB=8B=A8=EC=9C=84=ED=85=8C=EC=8A=A4=ED=8A=B8=EA=
+=B0=9C=EC=9A=94(Jasmine,Mocha)+React=EC=9D=BC=EB=B6=80-.=EC=9E=91=EC=84=B1=
+=ED=95=9C=ED=85=8C=EC=8A=A4=ED=8A=B8=EC=BD=94=EB=93=9C=EC=9D=98=EC=9E=90=EB=
+=8F=99=EC=88=98=ED=96=89=EB=B0=A9=EB=B2=95-Karma,PhantomJS=EB=93=B1">. =EC=
+=9E=91=EC=84=B1=ED=95=9C =ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=BD=94=EB=93=9C=EC=
+=9D=98 =EC=9E=90=EB=8F=99 =EC=88=98=ED=96=89 =EB=B0=A9=EB=B2=95 - Karma, Ph=
+antomJS =EB=93=B1</h1>
+<p>=EB=A1=9C=EC=BB=AC=EC=97=90=EC=84=9C =ED=85=8C=EC=8A=A4=ED=8A=B8=EB=A5=
+=BC =EC=8B=A4=ED=96=89=ED=95=A0 =EB=95=8C=EB=8A=94 =EB=B3=84=EB=8F=84=EC=9D=
+=98 Runner=EB=A1=9C =EC=8B=A4=ED=96=89=ED=95=98=EC=A7=80=EB=A7=8C(=EC=98=88=
+: Jasmine=EC=9D=98 =EA=B2=BD=EC=9A=B0 <code>SpecRunner.html =ED=8C=8C=EC=9D=
+=BC=EC=9D=84 =EB=B8=8C=EB=9D=BC=EC=9A=B0=EC=A0=80=EC=97=90=EC=84=9C =EC=97=
+=B4=EB=A9=B4 =EC=8B=A4=ED=96=89)</code></p>
+<p>=EC=9E=90=EB=8F=99 =EC=8B=A4=ED=96=89=EC=9D=84 =EC=9C=84=ED=95=B4=EC=84=
+=9C=EB=8A=94 Karma =ED=88=B4=EC=9D=84 =EC=9D=B4=EC=9A=A9=ED=95=B4 =EC=8B=A4=
+=ED=96=89 =EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EB=A5=BC, Headless =EB=B8=8C=
+=EB=9D=BC=EC=9A=B0=EC=A0=80=EC=9D=B8 PhantomJS =EC=83=81=EC=97=90=EC=84=9C =
+=EC=8B=A4=ED=96=89=ED=95=98=EB=8F=84=EB=A1=9D =ED=95=98=EA=B3=A0, =EC=9D=B4=
+ =EC=8A=A4=ED=81=AC=EB=A6=BD=ED=8A=B8=EB=A5=BC Jenkins =EB=93=B1=EC=9D=98</=
+p>
+<p>=ED=88=B4=EC=97=90 =EC=97=B0=EB=8F=99=EC=8B=9C=ED=82=A4=EB=A9=B4 =EB=90=
+=9C=EB=8B=A4.</p>
+<p>=EC=B0=B8=EC=A1=B0 : <a href=3D"https://ian_lin.gitbooks.io/javascript-t=
+esting/content/chapter2.html" class=3D"external-link" rel=3D"nofollow">http=
+s://ian_lin.gitbooks.io/javascript-testing/content/chapter2.html</a></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>&nbsp;</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_1731_1952988446.1518497520500--

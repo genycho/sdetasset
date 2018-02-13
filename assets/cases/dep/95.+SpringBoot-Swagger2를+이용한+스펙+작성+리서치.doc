@@ -1,0 +1,1324 @@
+Message-ID: <565718839.1736.1518497552627.JavaMail.confluence@pconfwas1.skcc.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1735_277362841.1518497552626"
+
+------=_Part_1735_277362841.1518497552626
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>95. SpringBoot-Swagger2=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=9C =EC=
+=8A=A4=ED=8E=99 =EC=9E=91=EC=84=B1 =EB=A6=AC=EC=84=9C=EC=B9=98</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>95. SpringBoot-Swagger2=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=9C =EC=8A=
+=A4=ED=8E=99 =EC=9E=91=EC=84=B1 =EB=A6=AC=EC=84=9C=EC=B9=98</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1518497552582 {padding: 0px;}
+div.rbtoc1518497552582 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1518497552582 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1518497552582">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EC=9E=
+=91=EC=84=B1=EB=AA=A9=EC=A0=81">=EC=9E=91=EC=84=B1 =EB=AA=A9=EC=A0=81</a></=
+li>=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-Swagger?=
+RESTfulAPI=EB=A5=BC=EC=84=A4=EB=AA=85=ED=95=98=EA=B3=A0=ED=91=9C=ED=98=84=
+=ED=95=98=EA=B8=B0=EC=9C=84=ED=95=9C=ED=94=84=EB=A1=9C=EC=A0=9D=ED=8A=B8">S=
+wagger? RESTful API=EB=A5=BC =EC=84=A4=EB=AA=85=ED=95=98=EA=B3=A0 =ED=91=9C=
+=ED=98=84=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=9C =ED=94=84=EB=A1=9C=EC=A0=9D=
+=ED=8A=B8</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EA=B3=
+=B5=EC=8B=9D=EC=82=AC=EC=9D=B4=ED=8A=B8">=EA=B3=B5=EC=8B=9D=EC=82=AC=EC=9D=
+=B4=ED=8A=B8</a></li>=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-SwaggerS=
+pecification(=EC=8A=A4=ED=8E=99)">Swagger Specification(=EC=8A=A4=ED=8E=99)=
+</a></li>=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EC=82=
+=AC=EC=9A=A9=EC=83=81=EC=9D=98=EC=9E=A5=EC=A0=90">=EC=82=AC=EC=9A=A9=EC=83=
+=81=EC=9D=98 =EC=9E=A5=EC=A0=90</a></li>=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EC=8A=
+=A4=ED=8E=99=ED=8C=8C=EC=9D=BC=ED=8F=AC=EB=A7=B7">=EC=8A=A4=ED=8E=99 =ED=8C=
+=8C=EC=9D=BC =ED=8F=AC=EB=A7=B7</a></li>=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-SpringRE=
+ST=EC=99=80Swagger=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=8A=A4=ED=8E=99=EC=
+=A0=95=EC=9D=98">Spring REST=EC=99=80 Swagger=EB=A5=BC =EC=9D=B4=EC=9A=A9=
+=ED=95=9C =EC=8A=A4=ED=8E=99 =EC=A0=95=EC=9D=98</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=
+=9C=EC=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-SpringRE=
+ST=EC=99=80Swagger=EC=83=81=EC=84=B8=EC=9E=91=EC=84=B1=EB=B0=A9=EB=B2=95">S=
+pring REST=EC=99=80 Swagger =EC=83=81=EC=84=B8 =EC=9E=91=EC=84=B1 =EB=B0=A9=
+=EB=B2=95</a></li>=20
+</ul>=20
+</div>
+<p></p>
+<h1 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EC=9E=91=EC=
+=84=B1=EB=AA=A9=EC=A0=81"><strong>=EC=9E=91=EC=84=B1 =EB=AA=A9=EC=A0=81</st=
+rong></h1>
+<p>REST API=EC=99=80 =EA=B0=81 API=EC=97=90 =EB=8C=80=ED=95=9C =EC=8A=A4=ED=
+=8E=99=EC=9D=80 =EC=A0=9C=ED=92=88=EC=9D=98 =EA=B0=9C=EB=B0=9C =EB=B0=8F =
+=EC=9A=B4=EC=98=81 =EB=8B=A8=EA=B3=84=EC=97=90=EC=84=9C =EC=A4=91=EC=9A=94=
+=ED=95=9C =EC=9E=90=EC=82=B0=EC=9E=85=EB=8B=88=EB=8B=A4.</p>
+<p>=EC=9D=B4 API =EC=8A=A4=ED=8E=99=EC=9D=84 =EC=9E=98 =EC=A0=95=EC=9D=98=
+=ED=95=98=EA=B3=A0 =ED=98=84=ED=96=89=ED=99=94=ED=95=98=EA=B8=B0 =EC=9C=84=
+=ED=95=B4 =EC=84=9C=EB=B2=84 =EA=B0=9C=EB=B0=9C =EA=B8=B0=EC=88=A0=EC=9D=B8=
+ SpringBoot+REST=EC=97=90 Swagger =EC=96=B4=EB=85=B8=ED=85=8C=EC=9D=B4=EC=
+=85=98=EC=9D=84 =EC=A0=81=EC=9A=A9=ED=95=98=EC=97=AC</p>
+<p>API =EC=8A=A4=ED=8E=99=EC=9D=84 SwaggerUI =EB=93=B1=EC=9C=BC=EB=A1=9C&nb=
+sp;=EC=89=BD=EA=B2=8C =EC=83=9D=EC=84=B1=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=
+=9C =EC=82=AC=EC=9A=A9=EB=B2=95=EC=9D=84 =EC=82=AC=EC=A0=84 =EC=A1=B0=EC=82=
+=AC=ED=95=98=EC=97=AC =EA=B0=9C=EB=B0=9C=ED=8C=80=EA=B3=BC =EA=B3=B5=EC=9C=
+=A0=ED=95=B4 =EB=B3=B4=EB=A0=A4=EA=B3=A0 =ED=95=A8</p>
+<p><br></p>
+<h1 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-Swagger?RESTfu=
+lAPI=EB=A5=BC=EC=84=A4=EB=AA=85=ED=95=98=EA=B3=A0=ED=91=9C=ED=98=84=ED=95=
+=98=EA=B8=B0=EC=9C=84=ED=95=9C=ED=94=84=EB=A1=9C=EC=A0=9D=ED=8A=B8"><strong=
+>Swagger? </strong><strong>RESTful API=EB=A5=BC =EC=84=A4=EB=AA=85=ED=95=98=
+=EA=B3=A0 =ED=91=9C=ED=98=84=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=9C =ED=94=84=
+=EB=A1=9C=EC=A0=9D=ED=8A=B8</strong></h1>
+<h2 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EA=B3=B5=EC=
+=8B=9D=EC=82=AC=EC=9D=B4=ED=8A=B8"><strong>=EA=B3=B5=EC=8B=9D=EC=82=AC=EC=
+=9D=B4=ED=8A=B8</strong></h2>
+<p>: <a href=3D"https://swagger.io/getting-started/" class=3D"external-link=
+" rel=3D"nofollow">https://swagger.io/getting-started/</a></p>
+<h2 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-SwaggerSpecifi=
+cation(=EC=8A=A4=ED=8E=99)"><strong>Swagger Specification(=EC=8A=A4=ED=8E=
+=99)</strong></h2>
+<p><strong>: API=EB=A5=BC =EC=84=A4=EB=AA=85=ED=95=98=EA=B3=A0 =EC=89=BD=EA=
+=B2=8C =ED=91=9C=ED=98=84=ED=95=98=EA=B8=B0&nbsp;=EC=9C=84=ED=95=9C =EC=A0=
+=95=EC=9D=98=EC=99=80 =EA=B7=9C=EC=B9=99=EB=93=A4=EC=9D=98 =EB=AA=A8=EC=9D=
+=8C.(=ED=98=84=EC=9E=AC =EC=8A=A4=ED=8E=99 2.0)</strong></p>
+<h2 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EC=82=AC=EC=
+=9A=A9=EC=83=81=EC=9D=98=EC=9E=A5=EC=A0=90"><strong>=EC=82=AC=EC=9A=A9=EC=
+=83=81=EC=9D=98 =EC=9E=A5=EC=A0=90</strong></h2>
+<p><strong>: API=EB=A5=BC =EB=B3=B4=EB=8B=A4 =EC=9D=B4=ED=95=B4=ED=95=98=EA=
+=B8=B0 =EC=89=BD=EB=8F=84=EB=A1=9D&nbsp;=EB=B3=B4=EC=97=AC=EC=A3=BC=EA=B3=
+=A0 =EB=8B=A4=EC=96=91=ED=95=9C =ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=98=EB=B0=
+=8D =EC=96=B8=EC=96=B4=EC=9D=98 =EC=BD=94=EB=93=9C=EB=A1=9C =EC=9E=90=EB=8F=
+=99=EC=83=9D=EC=84=B1=EC=9D=B4 =EA=B0=80=EB=8A=A5=ED=95=98=EB=8B=A4. =EC=95=
+=84=EC=9A=B8=EB=9F=AC =EB=8B=A4=EC=96=91=ED=95=9C =ED=88=B4=EC=9D=84 =ED=95=
+=A8=EA=BB=98 =EC=82=AC=EC=9A=A9=ED=95=98=EC=97=AC =EA=B2=B0=EA=B3=BC =ED=8C=
+=8C=EC=9D=BC=EC=9D=B4=EB=82=98 =ED=85=8C=EC=8A=A4=ED=8C=85 =EC=9A=A9=EB=8F=
+=84=EB=A1=9C=EB=8F=84 =ED=99=9C=EC=9A=A9</strong></p>
+<p>&nbsp; . swagger-editor : =EC=8A=A4=EC=9B=A8=EA=B1=B0 =EB=AA=85=EC=84=B8=
+=EB=A5=BC =EC=9E=91=EC=84=B1=ED=95=98=EA=B2=8C =EB=8F=84=EC=99=80=EC=A3=BC=
+=EB=8A=94 =ED=85=8D=EC=8A=A4=ED=8A=B8 =EC=97=90=EB=94=94=ED=84=B0. <a href=
+=3D"http://editor.swagger.io/#/" class=3D"external-link" rel=3D"nofollow">=
+=EC=98=A8=EB=9D=BC=EC=9D=B8 =EB=8D=B0=EB=AA=A8</a></p>
+<p>&nbsp; . swagger-ui: swagger api=EB=A5=BC =EB=AC=B8=EC=84=9C=ED=99=94 =
+=ED=95=B4=EC=84=9C =EB=B3=B4=EC=97=AC=EC=A3=BC=EA=B3=A0 =EC=A7=81=EC=A0=91 =
+rest api call=EB=8F=84 =ED=95=B4=EB=B3=BC =EC=88=98 =EC=9E=88=EC=9D=8C <a h=
+ref=3D"http://petstore.swagger.io/" class=3D"external-link" rel=3D"nofollow=
+">=EC=98=A8=EB=9D=BC=EC=9D=B8 =EB=8D=B0=EB=AA=A8</a>&nbsp;</p>
+<p>&nbsp; . swagger-codegen : swagger =EB=AA=85=EC=84=B8=EB=A5=BC =EA=B8=B0=
+=EB=B0=98=EC=9C=BC=EB=A1=9C =EA=B0=81 =EC=96=B8=EC=96=B4=EB=A1=9C =EC=86=8C=
+=EC=8A=A4 =EB=BC=88=EB=8C=80=EB=A5=BC =EB=A7=8C=EB=93=A4=EC=96=B4=EC=A4=8C.=
+ Java, Scala, node =EB=93=B1=EC=9D=84 =EC=A7=80=EC=9B=90=ED=95=B4 =EC=A4=8C=
+</p>
+<h2 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-=EC=8A=A4=ED=
+=8E=99=ED=8C=8C=EC=9D=BC=ED=8F=AC=EB=A7=B7"><strong>=EC=8A=A4=ED=8E=99 =ED=
+=8C=8C=EC=9D=BC =ED=8F=AC=EB=A7=B7</strong></h2>
+<p><strong>: =ED=91=9C=EC=A4=80 JSON =EB=98=90=EB=8A=94&nbsp;YAML =ED=98=95=
+=ED=83=9C=EB=A1=9C Swagger Spec=EC=9D=84 =EC=A0=80=EC=9E=A5=ED=95=B4=EC=84=
+=9C =EC=82=AC=EC=9A=A9.</strong></p>
+<p><span lang=3D"ko"><br></span></p>
+<h2 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-SpringREST=EC=
+=99=80Swagger=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=8A=A4=ED=8E=99=EC=A0=
+=95=EC=9D=98"><strong>Spring REST=EC=99=80 Swagger=EB=A5=BC =EC=9D=B4=EC=9A=
+=A9=ED=95=9C =EC=8A=A4=ED=8E=99 =EC=A0=95=EC=9D=98 </strong></h2>
+<p><strong>=EB=B0=A9=EB=B2=95 1: .yaml =EB=98=90=EB=8A=94 json =ED=8C=8C=EC=
+=9D=BC =ED=98=95=ED=83=9C=EC=97=90 =EC=8A=A4=ED=8E=99 =EB=A8=BC=EC=A0=80 =
+=EC=A0=95=EC=9D=98&nbsp;=E2=86=92 =EC=9B=90=ED=95=98=EB=8A=94 =EA=B0=9C=EB=
+=B0=9C=EC=96=B8=EC=96=B4=EC=97=90 =EB=94=B0=EB=9D=BC =EC=84=9C=EB=B2=84/=ED=
+=81=B4=EB=9D=BC=EC=9D=B4=EC=96=B8=ED=8A=B8 =EC=BD=94=EB=93=9C =EC=83=9D=EC=
+=84=B1&nbsp;=E2=86=92 =EC=8A=A4=ED=8E=99 =EC=83=9D=EC=84=B1, SwaggerUI=EB=
+=A5=BC =EB=8D=94=ED=95=98=EB=A9=B4 =ED=98=B8=EC=B6=9C=EB=8F=84 =EA=B0=80=EB=
+=8A=A5</strong></p>
+<p><strong>=EB=B0=A9=EB=B2=95 2: Spring REST =EA=B0=9C=EB=B0=9C =EC=BD=94=
+=EB=93=9C=EC=97=90 Swagger =EC=96=B4=EB=85=B8=ED=85=8C=EC=9D=B4=EC=85=98 =
+=EC=9E=91=EC=84=B1 =E2=86=92 =EC=8A=A4=ED=8E=99 =EC=83=9D=EC=84=B1, </stron=
+g><strong>SwaggerUI=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=98=EC=97=AC =ED=98=B8=
+=EC=B6=9C</strong></p>
+<p><br></p>
+<h1 id=3D"id-95.SpringBoot-Swagger2=EB=A5=BC=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=8A=A4=ED=8E=99=EC=9E=91=EC=84=B1=EB=A6=AC=EC=84=9C=EC=B9=98-SpringREST=EC=
+=99=80Swagger=EC=83=81=EC=84=B8=EC=9E=91=EC=84=B1=EB=B0=A9=EB=B2=95"><span =
+lang=3D"ko"><strong>Spring REST=EC=99=80 Swagger </strong><strong>=EC=83=81=
+=EC=84=B8 =EC=9E=91=EC=84=B1 =EB=B0=A9=EB=B2=95</strong></span></h1>
+<p>Spring REST =EC=A0=95=EC=9D=98=EB=A7=8C=EC=9C=BC=EB=A1=9C=EB=8F=84 Swagg=
+erUI=EB=A5=BC =ED=86=B5=ED=95=B4 API=EB=A5=BC =ED=98=B8=EC=B6=9C=ED=95=A0 =
+=EC=88=98 =EC=9E=88=EC=A7=80=EB=A7=8C</p>
+<p>API=EC=97=90 =EB=8C=80=ED=95=9C =EC=84=A4=EB=AA=85, =ED=95=84=EC=88=98=
+=EC=9E=85=EB=A0=A5 =EC=97=AC=EB=B6=80 =EB=93=B1 =EC=8A=A4=ED=8E=99=EC=9C=BC=
+=EB=A1=9C=EC=8D=A8 =EC=99=84=EA=B2=B0=EC=84=B1=EC=9D=84 =EA=B0=96=EA=B8=B0 =
+=EC=9C=84=ED=95=B4=EC=84=9C=EB=8A=94 Swagger =EC=96=B4=EB=85=B8=ED=85=8C=EC=
+=9D=B4=EC=85=98=EC=9D=84 =EC=9D=B4=EC=9A=A9=ED=95=9C =EC=B6=94=EA=B0=80 =EC=
+=A0=95=EB=B3=B4 =EC=A0=95=EC=9D=98=EA=B0=80 =ED=95=84=EC=9A=94=ED=95=98=EB=
+=8B=A4</p>
+<p><a href=3D"https://dzone.com/articles/spring-boot-restful-api-documentat=
+ion-with-swagger" class=3D"external-link" rel=3D"nofollow">https://dzone.co=
+m/articles/spring-boot-restful-api-documentation-with-swagger</a></p>
+<p><a href=3D"https://www.programcreek.com/java-api-examples/index.php?api=
+=3Dio.swagger.annotations.ApiOperation" class=3D"external-link" rel=3D"nofo=
+llow">https://www.programcreek.com/java-api-examples/index.php?api=3Dio.swa=
+gger.annotations.ApiOperation</a></p>
+<p><a href=3D"https://www.programcreek.com/java-api-examples/index.php?api=
+=3Dio.swagger.annotations.ApiModelProperty" class=3D"external-link" rel=3D"=
+nofollow">https://www.programcreek.com/java-api-examples/index.php?api=3Dio=
+.swagger.annotations.ApiModelProperty</a></p>
+<p><a href=3D"https://jakubstas.com/spring-jersey-swagger-fine-tuning-expos=
+ed-documentation/#.WgKJgP5ryM8" class=3D"external-link" rel=3D"nofollow">ht=
+tps://jakubstas.com/spring-jersey-swagger-fine-tuning-exposed-documentation=
+/#.WgKJgP5ryM8</a></p>
+<p><br></p>
+<p>&nbsp;</p>
+<p><strong>=EC=99=BC=EC=AA=BD : REST API =EC=8A=A4=ED=8E=99 =ED=95=AD=EB=AA=
+=A9 - =EC=98=A4=EB=A5=B8=EC=AA=BD : =ED=95=B4=EB=8B=B9 =EB=82=B4=EC=9A=A9=
+=EC=9D=84 =EC=83=9D=EC=84=B1=ED=95=98=EB=8A=94 Swagger =EB=AC=B8=EB=B2=95</=
+strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 74.=
+21%;">
+<colgroup>
+<col style=3D"width: 18.61%;">
+<col style=3D"width: 56.61%;">
+<col style=3D"width: 8.79%;">
+<col style=3D"width: 15.96%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">API =EC=8A=A4=ED=8E=99 =ED=95=AD=EB=AA=A9</th>
+<th class=3D"confluenceTh">Spring REST + Swagger =EC=A0=95=EC=9D=98=EB=B0=
+=A9=EB=B2=95</th>
+<th colspan=3D"1" class=3D"confluenceTh">=EC=9E=91=EC=84=B1=EC=9C=84=EC=B9=
+=98&nbsp;</th>
+<th class=3D"confluenceTh">=EB=B9=84=EA=B3=A0</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EB=A6=AC=EC=86=8C=EC=8A=A4 =EA=B5=AC=EB=B6=84 =
+=EC=A0=95=EC=9D=98- =EC=98=88: '=EB=A9=A4=EB=B2=84'</td>
+<td class=3D"confluenceTd">@<strong>Api</strong>(<strong><span style=3D"col=
+or: rgb(0,0,255);">value =3D "HomeController"</span></strong>, description =
+=3D "swagger test",<span style=3D"color: rgb(51,51,51);"><span style=3D"col=
+or: rgb(0,0,0);">basePath</span> =3D "<span style=3D"color: rgb(0,0,255);">=
+/api/v1</span>")</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;"><a rel=3D"nofollow"><span style=3D"color: rgb(255,0,0);">=ED=81=B4=EB=9E=
+=98=EC=8A=A4</span></a>&nbsp;=EC=83=81=EB=8B=A8</span></td>
+<td class=3D"confluenceTd">=EC=BD=94=EB=93=9C#1=EC=B0=B8=EC=A1=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EB=A6=AC=EC=86=8C=EC=8A=A4 =EA=B5=AC=EB=B6=84 =
+=EC=84=A4=EB=AA=85- =EC=98=88: '=EB=A9=A4=EB=B2=84=EB=A6=AC=EC=86=8C=EC=8A=
+=A4'</td>
+<td class=3D"confluenceTd">@<strong>Api</strong>(<span style=3D"color: rgb(=
+0,0,0);">value =3D "HomeController",</span> <strong><span style=3D"color: r=
+gb(0,0,255);">description =3D "swagger test"</span>,</strong>basePath =3D "=
+<span style=3D"color: rgb(0,0,255);">/api/v1</span>")</td>
+<td colspan=3D"1" class=3D"confluenceTd">=EC=83=81=EB=8F=99</td>
+<td class=3D"confluenceTd">=EC=BD=94=EB=93=9C#1=EC=B0=B8=EC=A1=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">(=EC=84=A0=ED=83=9D) =EB=A6=AC=EC=86=8C=EC=8A=A4=
+=EB=B3=84 basePath</td>
+<td class=3D"confluenceTd">@<strong>Api</strong>(<span style=3D"color: rgb(=
+0,0,0);">value =3D "HomeController"</span>, description =3D "swagger test",=
+<span style=3D"color: rgb(0,0,255);"><strong>basePath =3D "/api/v1"</strong=
+>)</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">=EC=83=81=EB=8F=99</td>
+<td class=3D"confluenceTd">=EC=BD=94=EB=93=9C#1=EC=B0=B8=EC=A1=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">API =EC=84=A4=EB=AA=85</td>
+<td class=3D"confluenceTd"><span><span class=3D"cm-meta">@<strong>ApiOperat=
+ion</strong></span>(<strong><span style=3D"color: rgb(0,0,255);"><span clas=
+s=3D"cm-variable">value</span> <span class=3D"cm-operator">=3D</span> <span=
+ class=3D"cm-string">"View a list of available products"</span></span></str=
+ong>, notes =3D "Returns news items", <span class=3D"cm-variable">response<=
+/span> <span class=3D"cm-operator">=3D</span> User.<span class=3D"cm-keywor=
+d">class, <em>responseContainer <span class=3D"pun">=3D</span><span class=
+=3D"pln"> </span><span class=3D"str">"List"</span></em></span>)</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">API =ED=8C=A8=EC=93=B0</td>
+<td class=3D"confluenceTd"><p><span class=3D"cm-meta">@<strong>RequestMappi=
+ng</strong></span>(<span style=3D"color: rgb(0,0,255);"><strong><span class=
+=3D"cm-variable">value</span> <span class=3D"cm-operator">=3D</span> <span =
+class=3D"cm-string">"/list"</span></strong></span>, <span class=3D"cm-varia=
+ble">method</span><span class=3D"cm-operator">=3D</span> <span class=3D"cm-=
+variable">RequestMethod</span>.<span class=3D"cm-variable">GET</span>, <spa=
+n class=3D"cm-variable">produces</span> <span class=3D"cm-operator">=3D</sp=
+an> <span class=3D"cm-string">"application/json"</span>) =EB=98=90=EB=8A=94=
+</p><p><span class=3D"lit">@<strong><span style=3D"color: rgb(0,0,255);">Pa=
+th</span></strong></span><strong><span style=3D"color: rgb(0,0,255);"><span=
+ class=3D"pun">(</span><span class=3D"str">"/{id}"</span></span></strong><s=
+pan class=3D"pun"><strong><span style=3D"color: rgb(0,0,255);">)</span> </s=
+trong>=EB=93=B1</span></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span>&nbsp;</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">API =EB=A9=94=EC=86=8C=EB=93=9C=ED=83=80=EC=9E=
+=85</td>
+<td class=3D"confluenceTd"><p><span class=3D"cm-meta">@RequestMapping</span=
+>(<span class=3D"cm-variable">value</span> <span class=3D"cm-operator">=3D<=
+/span> <span class=3D"cm-string">"/list"</span>, <span style=3D"color: rgb(=
+0,0,255);"><strong><span class=3D"cm-variable">method</span><span class=3D"=
+cm-operator">=3D</span> <span class=3D"cm-variable">RequestMethod</span>.<s=
+pan class=3D"cm-variable">GET</span></strong></span>, <span class=3D"cm-var=
+iable">produces</span> <span class=3D"cm-operator">=3D</span> <span class=
+=3D"cm-string">"application/json"</span>) =EB=98=90=EB=8A=94</p><p><strong>=
+@<span style=3D"color: rgb(0,0,255);">Get</span>(~) =EB=93=B1</strong></p><=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EC=9A=94=EC=B2=AD/=EC=9D=91=EB=8B=B5 =EC=BB=A8=
+=ED=85=90=EC=B8=A0 =ED=83=80=EC=9E=85</td>
+<td class=3D"confluenceTd"><p><span class=3D"lit"><span class=3D"lit">@<str=
+ong>Consumes</strong></span><span class=3D"pun">(</span><span class=3D"pln"=
+> </span><span class=3D"typ">MediaType</span><span class=3D"pun">.</span><s=
+pan class=3D"pln">APPLICATION_JSON </span><span class=3D"pun">)</span></spa=
+n></p><p><span class=3D"lit">@<strong>Produces</strong></span><span class=
+=3D"pun">(</span><span class=3D"typ">MediaType</span><span class=3D"pun">.<=
+/span><span class=3D"pln">APPLICATION_JSON</span><span class=3D"pun">)</spa=
+n></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=EC=9D=91=EB=8B=B5=EA=B0=92 =EB=8D=B0=EC=9D=
+=B4=ED=84=B0 =ED=83=80=EC=9E=85</p><p>(=EB=AA=A8=EB=8D=B8=EC=9D=B8 =EA=B2=
+=BD=EC=9A=B0)</p></td>
+<td class=3D"confluenceTd"><p><span><span class=3D"cm-meta">@<strong>ApiOpe=
+ration</strong></span>(<span class=3D"cm-variable">value</span> <span class=
+=3D"cm-operator">=3D</span> <span class=3D"cm-string">"View a list of avail=
+able products"</span>, <span style=3D"color: rgb(0,0,255);"><strong><span c=
+lass=3D"cm-variable">response</span> <span class=3D"cm-operator">=3D</span>=
+ User.<span class=3D"cm-keyword">class,</span></strong></span></span></p><p=
+><span><span style=3D"color: rgb(0,0,255);"><strong><span class=3D"cm-keywo=
+rd">&nbsp;<s><em>responseContainer <span class=3D"pun">=3D</span><span clas=
+s=3D"pln"> </span><span class=3D"str">"List"</span></em></s></span></strong=
+></span>)</span></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span></td>
+<td class=3D"confluenceTd"><p>List=EA=B0=80 =EC=95=84=EB=8B=8C =EA=B2=BD=EC=
+=9A=B0</p><p>responseContainer =ED=95=84=EC=9A=94=EC=97=86=EC=9D=8C</p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">API =EC=9D=91=EB=8B=B5=EC=BD=94=EB=93=9C =EC=A0=
+=95=EC=9D=98</td>
+<td class=3D"confluenceTd">
+<div>
+<div class=3D"CodeMirror-gutter-wrapper">
+<span><span class=3D"cm-meta">@ApiResponses</span>(<span class=3D"cm-variab=
+le">value</span> <span class=3D"cm-operator">=3D</span> {</span>
+</div>
+</div>
+<div>
+<div class=3D"CodeMirror-gutter-wrapper">
+<div class=3D"CodeMirror-linenumber CodeMirror-gutter-elt">
+<span>&nbsp; <span class=3D"cm-meta">@ApiResponse</span>(<span class=3D"cm-=
+variable">code</span> <span class=3D"cm-operator">=3D</span> <span class=3D=
+"cm-number">200</span>, <span class=3D"cm-variable">message</span> <span cl=
+ass=3D"cm-operator">=3D</span> <span class=3D"cm-string">"Successfully retr=
+ieved list"</span>),</span>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"CodeMirror-gutter-wrapper">
+<div class=3D"CodeMirror-linenumber CodeMirror-gutter-elt">
+<span>&nbsp; <span class=3D"cm-meta">@ApiResponse</span>(<span class=3D"cm-=
+variable">code</span> <span class=3D"cm-operator">=3D</span> <span class=3D=
+"cm-number">401</span>, <span class=3D"cm-variable">message</span> <span cl=
+ass=3D"cm-operator">=3D</span> <span class=3D"cm-string">"You are not autho=
+rized to view the resource"</span>),</span>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"CodeMirror-gutter-wrapper">
+<div class=3D"CodeMirror-linenumber CodeMirror-gutter-elt">
+<span>&nbsp; <span class=3D"cm-meta">@ApiResponse</span>(<span class=3D"cm-=
+variable">code</span> <span class=3D"cm-operator">=3D</span> <span class=3D=
+"cm-number">403</span>, <span class=3D"cm-variable">message</span> <span cl=
+ass=3D"cm-operator">=3D</span> <span class=3D"cm-string">"Accessing the res=
+ource you were trying to reach is forbidden"</span>),</span>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"CodeMirror-gutter-wrapper">
+<div class=3D"CodeMirror-linenumber CodeMirror-gutter-elt">
+<span>&nbsp; <span class=3D"cm-meta">@ApiResponse</span>(<span class=3D"cm-=
+variable">code</span> <span class=3D"cm-operator">=3D</span> <span class=3D=
+"cm-number">404</span>, <span class=3D"cm-variable">message</span> <span cl=
+ass=3D"cm-operator">=3D</span> <span class=3D"cm-string">"The resource you =
+were trying to reach is not found"</span>)</span>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"CodeMirror-gutter-wrapper">
+<div class=3D"CodeMirror-linenumber CodeMirror-gutter-elt">
+<span>}</span>
+</div>
+</div>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=EC=9E=85=EB=A0=A5 =ED=8C=8C=EB=
+=9D=BC=EB=AF=B8=ED=84=B0&nbsp;</p><p>- path=ED=8C=8C=EB=9D=BC=EB=AF=B8=ED=
+=84=B0</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"crayon-line">
+<span class=3D"crayon-m">public</span>
+<span class=3D"crayon-h"> </span>
+<span class=3D"crayon-e">Response </span>
+<span class=3D"crayon-e">updateUsersAvatar</span>
+<span class=3D"crayon-sy">(</span>
+<strong><span style=3D"color: rgb(0,0,255);"><span class=3D"crayon-n">@ApiP=
+aram</span><span class=3D"crayon-sy">(</span><span class=3D"crayon-v">name<=
+/span><span class=3D"crayon-h"> </span><span class=3D"crayon-o">=3D</span><=
+span class=3D"crayon-h"> </span><span class=3D"crayon-s">"userName"</span><=
+span class=3D"crayon-sy">,</span><span class=3D"crayon-h"> </span><span cla=
+ss=3D"crayon-v">value</span><span class=3D"crayon-h"> </span><span class=3D=
+"crayon-o">=3D</span><span class=3D"crayon-h"> </span><span class=3D"crayon=
+-s">"Alphanumeric login to </span></span></strong>
+</div>
+<div class=3D"crayon-line">
+<strong><span style=3D"color: rgb(0,0,255);"><span class=3D"crayon-s">&nbsp=
+; application"</span><span class=3D"crayon-sy">)</span></span></strong>
+<span class=3D"crayon-h"> </span>
+</div>
+<div class=3D"crayon-line">
+<strong><span class=3D"crayon-n">@PathParam</span><span class=3D"crayon-sy"=
+>(</span><span class=3D"crayon-s">"userName"</span><span class=3D"crayon-sy=
+">)</span><span class=3D"crayon-h"> </span><span class=3D"crayon-t">String<=
+/span><span class=3D"crayon-h"> </span><span class=3D"crayon-v">userName</s=
+pan></strong>
+<span class=3D"crayon-sy"><span class=3D"crayon-sy">)</span><span class=3D"=
+crayon-h"> </span><span class=3D"crayon-sy">{</span></span>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">=EB=A9=94=EC=86=8C=EB=93=9C =EC=9E=
+=85=EB=A0=A5=EA=B0=92</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=EC=9E=85=EB=A0=A5 =ED=8C=8C=EB=
+=9D=BC=EB=AF=B8=ED=84=B0&nbsp;</p><p>- query=ED=8C=8C=EB=9D=BC=EB=AF=B8=ED=
+=84=B0</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"crayon-line">
+<span class=3D"crayon-m"><span class=3D"lit"><span class=3D"kwd">public</sp=
+an><span class=3D"pln"> </span><span class=3D"kwd">void</span><span class=
+=3D"pln"> findAvailabilityMetrics</span><span class=3D"pun">(</span><strong=
+><span class=3D"pln"> </span><span style=3D"color: rgb(0,0,255);"><span cla=
+ss=3D"lit">@ApiParam</span><span class=3D"pun">(</span><span class=3D"pln">=
+value </span><span class=3D"pun">=3D</span><span class=3D"pln"> </span><spa=
+n class=3D"str">"List of tags filters"</span><span class=3D"pun">,</span><s=
+pan class=3D"pln"> required </span><span class=3D"pun">=3D</span><span clas=
+s=3D"pln"> </span><span class=3D"kwd">false</span><span class=3D"pun">)</sp=
+an></span><span class=3D"pln"> </span></strong></span></span>
+</div>
+<div class=3D"crayon-line">
+<span class=3D"crayon-m"><span class=3D"lit"><strong><span class=3D"lit">@Q=
+ueryParam</span><span class=3D"pun">(</span><span class=3D"str">"tags"</spa=
+n><span class=3D"pun">)</span><span class=3D"pln"> </span><span class=3D"ty=
+p">Tags</span><span class=3D"pln"> tags</span></strong><span class=3D"pun">=
+)</span><span class=3D"pln"> </span><span class=3D"pun">{</span><span class=
+=3D"pln"> </span></span></span>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>=EC=9E=85=EB=A0=A5 =ED=8C=8C=EB=9D=BC=EB=AF=
+=B8=ED=84=B0&nbsp;</p><p>- requestBody</p></td>
+<td class=3D"confluenceTd"><p>1=EB=B2=88=EB=B0=A9=EB=B2=95) =EA=B0=81 API =
+=EB=B3=84=EB=A1=9C =EC=9E=85=EB=A0=A5 =ED=8C=8C=EB=9D=BC=EB=AF=B8=ED=84=B0=
+=EB=A5=BC =EC=A7=81=EC=A0=91 =EC=A0=95=EC=9D=98=ED=95=98=EB=8A=94 =EA=B2=BD=
+=EC=9A=B0</p><p>&nbsp;&nbsp;- =EB=93=B1=EB=A1=9D/=EC=88=98=EC=A0=95 =EB=93=
+=B1=EC=97=90=EC=84=9C =EA=B0=99=EC=9D=80 Entity=EB=A5=BC =EC=93=B0=EB=82=98=
+ =EC=83=81=ED=99=A9=EB=B3=84=EB=A1=9C =ED=8C=8C=EB=9D=BC=EB=AF=B8=ED=84=B0 =
+=EC=8A=A4=ED=8E=99=EC=9D=B4 =EC=83=81=EC=9D=98=ED=95=9C =EA=B2=BD=EC=9A=B0=
+=EB=93=B1=EC=97=90 =ED=99=9C=EC=9A=A9</p><p><strong><span style=3D"color: r=
+gb(0,0,255);"><code class=3D"java color1">@ApiImplicitParams</code></span><=
+/strong><code class=3D"java plain">({</code></p>
+<div class=3D"line number25 index24 alt2">
+<strong><span style=3D"color: rgb(0,0,255);"><code class=3D"java spaces">&n=
+bsp;&nbsp;</code><code class=3D"java color1">@ApiImplicitParam</code><code =
+class=3D"java plain">(name =3D </code><code class=3D"java string">"name"</c=
+ode><code class=3D"java plain">, value =3D </code><code class=3D"java strin=
+g">"User's name"</code><code class=3D"java plain">, required =3D </code><co=
+de class=3D"java keyword">false</code><code class=3D"java plain">, dataType=
+ =3D </code><code class=3D"java string">"string"</code><code class=3D"java =
+plain">, paramType =3D </code><code class=3D"java string">"query"</code><co=
+de class=3D"java plain">, defaultValue=3D</code><code class=3D"java string"=
+>"Niklas"</code><code class=3D"java plain">)</code></span></strong>
+</div>
+<div class=3D"line number26 index25 alt1">
+<code class=3D"java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
+<code class=3D"java plain">})</code>
+</div>
+<div class=3D"line number26 index25 alt1">
+<p><span class=3D"cm-type"><span class=3D"cm-meta">NewsEntry update<strong>=
+(@RequestBody</strong> <strong>NewsEntry news</strong>) {</span></span></p>
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
+,0);">=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8</span>&nbsp;</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;2=EB=B2=88=EB=B0=A9=EB=B2=95=
+) Entity=EB=A7=8C =EC=97=B0=EA=B2=B0=ED=95=98=EA=B3=A0 Entity =ED=95=98=EB=
+=82=98=EC=97=90 =EC=9D=BC=EA=B4=84 =EC=A0=95=EC=9D=98=ED=95=98=EB=8A=94 =EA=
+=B2=BD=EC=9A=B0<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: =
+rgb(0,0,255);">&nbsp;VO =EC=83=81=EB=8B=A8=EC=97=90 <strong>@ApiModel(</str=
+ong></span></span><strong><span style=3D"color: rgb(0,0,255);">description&=
+nbsp;=3D&nbsp;<span class=3D"literal">"Represents&nbsp;a&nbsp;Department&nb=
+sp;in&nbsp;the&nbsp;system"</span>,&nbsp;value&nbsp;=3D&nbsp;<span class=3D=
+"literal">"department" </span>)&nbsp;</span></strong></p><p><br></p><p><spa=
+n style=3D"color: rgb(0,0,255);">@</span>ApiModelProperty(access&nbsp;=3D&n=
+bsp;<span class=3D"literal">"public"</span>,&nbsp;required&nbsp;=3D&nbsp;<s=
+pan class=3D"keyword">true</span>,&nbsp;position&nbsp;=3D&nbsp;<span class=
+=3D"literal">2, <span style=3D"color: rgb(153,153,153);"><em><span class=3D=
+"pl-c1">allowableValues</span> <span class=3D"pl-k">=3D</span> <span class=
+=3D"pl-s"><span class=3D"pl-pds">"</span>available,pending,sold<span class=
+=3D"pl-pds">"</span></span></em></span></span>)&nbsp;</p><p><span class=3D"=
+keyword">public</span>&nbsp;String&nbsp;<a rel=3D"nofollow">getDeptCode</a>=
+()&nbsp;{&nbsp;</p>
+<div class=3D"line">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class=3D"keyword">return</span>&nbsp;deptCode;&nbsp;
+</div>
+<div class=3D"line">
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+</div></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=EB=8D=B0=EC=9D=B4=ED=84=B0 VO =
+=EC=83=81=EB=8B=A8,</p><p><br></p><p>=EA=B0=81 =ED=8C=8C=EB=9D=BC=EB=AF=B8=
+=ED=84=B0=EC=9D=98</p><p>get=EB=A9=94=EC=86=8C=EB=93=9C =EC=83=81=EB=8B=A8<=
+/p></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EC=9A=94=EC=B2=AD/=EC=9D=91=EB=8B=B5&nbsp;Body =
+=EC=83=98=ED=94=8C =EC=9E=91=EC=84=B1</td>
+<td class=3D"confluenceTd">=EC=B0=BE=EB=8A=94 =EC=A4=91;;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><span class=3D"cm-type"><span class=3D"cm-variable"><strong>=EC=B0=B8=EC=
+=A1=B0=EC=BD=94=EB=93=9C - RestController =EC=83=98=ED=94=8C</strong><br></=
+span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>SampleRestController</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; first-line: 1; theme: Eclipse" data-theme=3D"Eclipse=
+">@RestController
+@RequestMapping("/api/tasks")
+@Api("/api/tasks")
+public class TaskController {
+    @Autowired
+    private TaskServiceImpl service;
+    @Autowired
+    private MessageSource messageSource;
+
+    @RequestMapping(method =3D RequestMethod.GET, produces =3D MediaType.AP=
+PLICATION_JSON_VALUE)
+    @ApiOperation(value =3D "Find all tasks", notes =3D "Retrieving the col=
+lection of user tasks", response =3D TaskDTO[].class)
+    @ApiResponses({
+        @ApiResponse(code =3D 200, message =3D "Success", response =3D Task=
+DTO[].class)
+    })
+    public List&lt;TaskDTO&gt; findAll() {
+        return service.findAll();
+    }
+
+    @RequestMapping(method =3D RequestMethod.POST, consumes =3D MediaType.A=
+PPLICATION_JSON_VALUE, produces =3D MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value =3D "Create task", notes =3D "Creating a new user t=
+ask", response =3D TaskDTO.class)
+    @ApiResponses({
+        @ApiResponse(code =3D 200, message =3D "Success", response =3D Task=
+DTO.class),
+        @ApiResponse(code =3D 400, message =3D "Bad request", response =3D =
+MessageDTO.class)
+    })
+    public TaskDTO create(
+            @ApiParam(required =3D true, name =3D "task", value =3D "New ta=
+sk")
+            @Valid @RequestBody TaskDTO dto) {
+        return service.create(dto);
+    }
+
+    @RequestMapping(value =3D "/{id}", method =3D RequestMethod.PUT, consum=
+es =3D MediaType.APPLICATION_JSON_VALUE, produces =3D MediaType.APPLICATION=
+_JSON_VALUE)
+    @ApiOperation(value =3D "Update task", notes =3D "Updating an existing =
+user task", response =3D TaskDTO.class)
+    @ApiResponses({
+        @ApiResponse(code =3D 200, message =3D "Success", response =3D Task=
+DTO.class),
+        @ApiResponse(code =3D 400, message =3D "Bad request", response =3D =
+MessageDTO.class),
+        @ApiResponse(code =3D 404, message =3D "Not found", response =3D Me=
+ssageDTO.class)
+    })
+    public TaskDTO update(
+            @ApiParam(required =3D true, name =3D "id", value =3D "ID of th=
+e task you want to update", defaultValue =3D "0")
+            @PathVariable Long id,
+            @ApiParam(required =3D true, name =3D "task", value =3D "Update=
+d task")
+            @Valid @RequestBody TaskDTO dto) {
+        return service.update(id, dto);
+    }
+
+    @RequestMapping(value =3D "/{id}", method =3D RequestMethod.DELETE, pro=
+duces =3D MediaType.APPLICATION_JSON_VALUE)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ApiOperation(value =3D "Delete task", notes =3D "Deleting an existing =
+user task")
+    @ApiResponses({
+        @ApiResponse(code =3D 204, message =3D "Success"),
+        @ApiResponse(code =3D 404, message =3D "Not found", response =3D Me=
+ssageDTO.class)
+    })
+    public void delete(
+            @ApiParam(required =3D true, name =3D "id", value =3D "ID of th=
+e task you want to delete")
+            @PathVariable Long id) {
+        service.delete(id);
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public MessageDTO handleValidationException(MethodArgumentNotValidExcep=
+tion ex) {
+        Locale locale =3D LocaleContextHolder.getLocale();
+        String code =3D ex.getBindingResult().getFieldError().getDefaultMes=
+sage();
+        return new MessageDTO(messageSource.getMessage(code, null, locale))=
+;
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(TaskNotFoundException.class)
+    public MessageDTO handleNotFoundException(TaskNotFoundException ex) {
+        String[] parameters =3D {Long.toString(ex.getId())};
+        Locale locale =3D LocaleContextHolder.getLocale();
+        return new MessageDTO(messageSource.getMessage("exception.TaskNotFo=
+und.description", parameters, locale));
+    }
+}
+</pre>=20
+</div>
+</div>
+<p><br></p>
+<p><strong><span class=3D"cm-type"><span class=3D"cm-variable">=EC=B0=B8=EC=
+=A1=B0=EC=BD=94=EB=93=9C - Entity =EC=83=98=ED=94=8C</span></span></strong>=
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>EntitySample</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Eclipse" data-theme=3D"Eclipse">@ApiModel(val=
+ue =3D "Task", description =3D "A user task")
+public class TaskDTO {
+    @ApiModelProperty(value =3D "The unique identifier of the given task", =
+readOnly =3D true)
+    private Long id;
+    @ApiModelProperty(value =3D "Description of the task", required =3D tru=
+e)
+    @NotNull(message =3D "NotNull.taskDTO.description")
+    @Size(min =3D 1, max =3D 64, message =3D "Size.taskDTO.description")
+    private String description;
+    @ApiModelProperty(value =3D "Indication if the task was completed or no=
+t")
+    private boolean completed;
+
+    public TaskDTO() {
+    }
+
+    public TaskDTO(Long id, String description, boolean completed) {
+        this.id =3D id;
+        this.description =3D description;
+        this.completed =3D completed;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description =3D description;
+    }
+
+    public boolean isCompleted() {
+        return completed;
+    }
+    public void setCompleted(boolean completed) {
+        this.completed =3D completed;
+    }
+}
+
+
+</pre>=20
+</div>
+</div>
+<p><br></p>
+<p><strong>=EC=B0=B8=EC=A1=B0: =EC=82=AC=EC=A0=84/=EC=82=AC=ED=9B=84 Swagge=
+r=EB=A1=9C =EC=83=9D=EC=84=B1=ED=95=9C =EC=8A=A4=ED=8E=99 yaml =EC=98=88-</=
+strong><strong>Uber =EC=8A=A4=ED=8E=99=ED=8C=8C=EC=9D=BC</strong><strong> <=
+/strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Eclipse" data-theme=3D"Eclipse"># this is an e=
+xample of the Uber API
+# as a demonstration of an API spec in YAML
+swagger: '2.0'
+info:
+&nbsp; title: Uber API
+&nbsp; description: Move your app forward with the Uber API
+&nbsp; version: "1.0.0"
+# the domain of the service
+host: api.uber.com
+# array of all schemes that your API supports
+schemes:
+&nbsp; - https
+# will be prefixed to all paths
+basePath: /v1
+produces:
+&nbsp; - application/json
+paths:
+&nbsp; /products:
+&nbsp;&nbsp;&nbsp; get:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; summary: Product Types
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Products endpoint returns in=
+formation about the *Uber* products
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; offered at a given location. The=
+ response includes the display name
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and other details about each pro=
+duct, and lists the products in the
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; proper display order.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parameters:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: latitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Latitud=
+e component of location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: longitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Longitu=
+de component of location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tags:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Products
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; responses:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: An arra=
+y of products
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: ar=
+ray
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; items:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; $ref: '#/definitions/Product'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; default:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unexpec=
+ted error
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Error'
+&nbsp; /estimates/price:
+&nbsp;&nbsp;&nbsp; get:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; summary: Price Estimates
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Price Estimates endpoint ret=
+urns an estimated price range
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for each product offered at a gi=
+ven location. The price estimate is
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; provided as a formatted string w=
+ith the full price range and the localized
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; currency symbol.&lt;br&gt;&lt;br=
+&gt;The response also includes low and high estimates,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and the [ISO 4217](http://en.wik=
+ipedia.org/wiki/ISO_4217) currency code for
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; situations requiring currency co=
+nversion. When surge is active for a particular
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; product, its surge_multiplier wi=
+ll be greater than 1, but the price estimate
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; already factors in this multipli=
+er.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parameters:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: start_latitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Latitud=
+e component of start location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: start_longitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Longitu=
+de component of start location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: end_latitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Latitud=
+e component of end location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: end_longitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Longitu=
+de component of end location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tags:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Estimates
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; responses:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: An arra=
+y of price estimates by product
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: ar=
+ray
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; items:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; $ref: '#/definitions/PriceEstimate'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; default:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unexpec=
+ted error
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Error'
+&nbsp; /estimates/time:
+&nbsp;&nbsp;&nbsp; get:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; summary: Time Estimates
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: The Time Estimates endpoint ret=
+urns ETAs for all products offered at a given location, with the responses =
+expressed as integers in seconds. We recommend that this endpoint be called=
+ every minute to provide the most accurate, up-to-date ETAs.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parameters:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: start_latitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Latitud=
+e component of start location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: start_longitude
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Longitu=
+de component of start location.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; required: true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: double
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: customer_uuid
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: uuid
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unique =
+customer identifier to be used for experience customization.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: product_id
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unique =
+identifier representing a specific product for a given latitude &amp; longi=
+tude.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tags:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Estimates
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; responses:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: An arra=
+y of products
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: ar=
+ray
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; items:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; $ref: '#/definitions/Product'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; default:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unexpec=
+ted error
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Error'
+&nbsp; /me:
+&nbsp;&nbsp;&nbsp; get:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; summary: User Profile
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: The User Profile endpoint retur=
+ns information about the Uber user that has authorized with the application=
+.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tags:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - User
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; responses:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Profile=
+ information for a user
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Profile'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; default:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unexpec=
+ted error
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Error'
+&nbsp; /history:
+&nbsp;&nbsp;&nbsp; get:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; summary: User Activity
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: The User Activity endpoint retu=
+rns data about a user's lifetime activity with Uber. The response will incl=
+ude pickup locations and times, dropoff locations and times, the distance o=
+f past requests, and information about which products were requested.&lt;br=
+&gt;&lt;br&gt;The history array in the response will have a maximum length =
+based on the limit parameter. The response value count may exceed limit, th=
+erefore subsequent API requests may be necessary.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parameters:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: offset
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: integer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: int32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Offset =
+the list of returned results by this amount. Default is zero.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - name: limit
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in: query
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: integer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: int32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Number =
+of items to retrieve. Default is 5, maximum is 100.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tags:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - User
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; responses:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: History=
+ information for the given user
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Activities'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; default:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unexpec=
+ted error
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; schema:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#=
+/definitions/Error'
+definitions:
+&nbsp; Product:
+&nbsp;&nbsp;&nbsp; type: object
+&nbsp;&nbsp;&nbsp; properties:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; product_id:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unique identifier r=
+epresenting a specific product for a given latitude &amp; longitude. For ex=
+ample, uberX in San Francisco will have a different product_id than uberX i=
+n Los Angeles.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Description of prod=
+uct.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; display_name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Display name of pro=
+duct.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; capacity:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Capacity of product=
+. For example, 4 people.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; image:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Image URL represent=
+ing the product.
+&nbsp; PriceEstimate:
+&nbsp;&nbsp;&nbsp; type: object
+&nbsp;&nbsp;&nbsp; properties:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; product_id:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unique identifier r=
+epresenting a specific product for a given latitude &amp; longitude. For ex=
+ample, uberX in San Francisco will have a different product_id than uberX i=
+n Los Angeles
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; currency_code:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: "[ISO 4217](http://=
+en.wikipedia.org/wiki/ISO_4217) currency code."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; display_name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Display name of pro=
+duct.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; estimate:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Formatted string of=
+ estimate in local currency of the start location. Estimate could be a rang=
+e, a single number (flat rate) or "Metered" for TAXI.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; low_estimate:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Lower bound of the =
+estimated price.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; high_estimate:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Upper bound of the =
+estimated price.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surge_multiplier:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: number
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Expected surge mult=
+iplier. Surge is active if surge_multiplier is greater than 1. Price estima=
+te already factors in the surge multiplier.
+&nbsp; Profile:
+&nbsp;&nbsp;&nbsp; type: object
+&nbsp;&nbsp;&nbsp; properties:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; first_name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: First name of the U=
+ber user.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; last_name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Last name of the Ub=
+er user.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; email:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Email address of th=
+e Uber user
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; picture:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Image URL of the Ub=
+er user.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; promo_code:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Promo code of the U=
+ber user.
+&nbsp; Activity:
+&nbsp;&nbsp;&nbsp; type: object
+&nbsp;&nbsp;&nbsp; properties:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uuid:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Unique identifier f=
+or the activity
+&nbsp; Activities:
+&nbsp;&nbsp;&nbsp; type: object
+&nbsp;&nbsp;&nbsp; properties:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; offset:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: integer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: int32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Position in paginat=
+ion.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; limit:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: integer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: int32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Number of items to =
+retrieve (100 max).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: integer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: int32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; description: Total number of ite=
+ms available.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; history:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: array
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; items:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ref: '#/definitions=
+/Activity'
+&nbsp; Error:
+&nbsp;&nbsp;&nbsp; type: object
+&nbsp;&nbsp;&nbsp; properties:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; code:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: integer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; format: int32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; message:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fields:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: string
+
+</pre>=20
+</div>
+</div>
+<p><br></p>
+<p>&nbsp;</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_1735_277362841.1518497552626--

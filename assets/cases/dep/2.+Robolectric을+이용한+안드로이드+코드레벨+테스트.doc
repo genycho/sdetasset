@@ -1,0 +1,472 @@
+Message-ID: <633318717.1724.1518497451690.JavaMail.confluence@pconfwas1.skcc.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1723_1023506879.1518497451690"
+
+------=_Part_1723_1023506879.1518497451690
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>2. Robolectric=EC=9D=84 =EC=9D=B4=EC=9A=A9=ED=95=9C =EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C =EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8 =ED=
+=85=8C=EC=8A=A4=ED=8A=B8</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>2. Robolectric=EC=9D=84 =EC=9D=B4=EC=9A=A9=ED=95=9C =EC=95=88=EB=93=
+=9C=EB=A1=9C=EC=9D=B4=EB=93=9C =EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8 =ED=85=
+=8C=EC=8A=A4=ED=8A=B8</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-2.Robolectric=EC=9D=84=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=
+=95=88=EB=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C=EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=
+=A8=ED=85=8C=EC=8A=A4=ED=8A=B8-.=ED=88=B4=EC=9D=98=EA=B0=9C=EC=9A=94">. =ED=
+=88=B4=EC=9D=98 =EA=B0=9C=EC=9A=94</h1>
+<p>URL : <a href=3D"http://juranosaurus.blogspot.kr/2015/10/robolectric-1.h=
+tml" class=3D"external-link" rel=3D"nofollow">http://juranosaurus.blogspot.=
+kr/2015/10/robolectric-1.html</a></p>
+<p>Android emulator=EB=82=98 device=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=98=EC=
+=97=AC =ED=85=8C=EC=8A=A4=ED=8C=85=ED=95=98=EB=8A=94=EA=B2=83=EC=9D=80 =EB=
+=A7=A4=EC=9A=B0 =EB=8A=90=EB=A6=BD=EB=8B=88=EB=8B=A4.</p>
+<p>App=EC=97=90 =EB=8C=80=ED=95=9C Building, Deploying, Launching =EA=B3=BC=
+=EC=A0=95=EC=9D=80 1=EB=B6=84=EC=97=90=EC=84=9C =EA=B7=B8 =EC=9D=B4=EC=83=
+=81 =EA=B1=B8=EB=A6=AC=EA=B8=B0 =EB=A7=88=EB=A0=A8=EC=9E=85=EB=8B=88=EB=8B=
+=A4.</p>
+<p>=EA=B7=B8=EA=B2=83=EC=9D=84 TDD=EB=A1=9C =EC=88=98=ED=96=89=ED=95=A0 =EB=
+=B0=A9=EB=B2=95=EC=9D=80 =EB=94=B0=EB=A1=9C =EC=A1=B4=EC=9E=AC=ED=95=98=EC=
+=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4. =EA=B7=B8=EB=9E=98=EC=84=9C =
+=EC=A1=B0=EA=B8=88 =EB=8D=94 =EB=82=98=EC=9D=80 =EB=B0=A9=EB=B2=95=EC=9D=84=
+ Robolectric=EC=9D=B4 =EC=A0=9C=EA=B3=B5=ED=95=B4=EC=A4=8D=EB=8B=88=EB=8B=
+=A4.</p>
+<p>IDE=EC=95=88 =EC=95=88=EC=97=90=EC=84=9C Android Test=EB=A5=BC =EC=A7=81=
+=EC=A0=91 =EC=88=98=ED=96=89=ED=95=B4=EB=B3=B4=EB=A0=A4=EA=B3=A0 =ED=95=B4=
+=EB=B3=B4=EC=85=A8=EB=82=98=EC=9A=94? =EC=95=84=EB=A7=88 =EC=8B=9C=EB=8F=84=
+=EB=A5=BC =ED=95=B4=EB=B4=A4=EB=8B=A4=EB=A9=B4 <span>java.lang.RuntimeExcep=
+tion: Stub</span> =EB=95=8C=EB=AC=B8=EC=97=90 =EC=8B=A4=ED=8C=A8=EB=A5=BC =
+=ED=96=88=EC=9D=84 =EA=B2=83 =EC=9E=85=EB=8B=88=EB=8B=A4.</p>
+<p>&nbsp;Robolectric=EC=9D=80 Android SDK=EC=97=90=EC=84=9C =ED=85=8C=EC=8A=
+=A4=ED=8A=B8 =EC=A7=80=ED=96=A5 =EA=B0=9C=EB=B0=9C=EC=9D=84 =ED=95=A0 =EC=
+=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D =EB=8F=84=EC=99=80=EC=A3=BC=EB=8A=94 uni=
+t test framework =EC=9E=85=EB=8B=88=EB=8B=A4.</p>
+<p>Test=EB=8A=94 JVM=EC=97=90=EC=84=9C =EB=AA=87=EC=B4=88=EC=95=88=EC=97=90=
+ =EC=88=98=ED=96=89=EB=90=A9=EB=8B=88=EB=8B=A4. Robolectric =EC=BD=94=EB=93=
+=9C=EB=8A=94 =EC=95=84=EB=9E=98=EC=99=80 =EA=B0=99=EC=8A=B5=EB=8B=88=EB=8B=
+=A4.</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"container">
+<div class=3D"line number1 index0 alt2">
+<code class=3D"java color1">@RunWith</code>
+<code class=3D"java plain">(RobolectricTestRunner.</code>
+<code class=3D"java keyword">class</code>
+<code class=3D"java plain">)</code>
+</div>
+<div class=3D"line number2 index1 alt1">
+<code class=3D"java keyword">public</code>=20
+<code class=3D"java keyword">class</code>=20
+<code class=3D"java plain">MyActivityTest {</code>
+</div>
+<div class=3D"line number3 index2 alt2">
+&nbsp;
+</div>
+<div class=3D"line number4 index3 alt1">
+<code class=3D"java spaces">&nbsp;&nbsp;</code>
+<code class=3D"java color1">@Test</code>
+</div>
+<div class=3D"line number5 index4 alt2">
+<code class=3D"java spaces">&nbsp;&nbsp;</code>
+<code class=3D"java keyword">public</code>=20
+<code class=3D"java keyword">void</code>=20
+<code class=3D"java plain">clickingButton_shouldChangeResultsViewText() </c=
+ode>
+<code class=3D"java keyword">throws</code>=20
+<code class=3D"java plain">Exception {</code>
+</div>
+<div class=3D"line number6 index5 alt1">
+<code class=3D"java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+<code class=3D"java plain">MyActivity activity =3D Robolectric.setupActivit=
+y(MyActivity.</code>
+<code class=3D"java keyword">class</code>
+<code class=3D"java plain">);</code>
+</div>
+<div class=3D"line number7 index6 alt2">
+&nbsp;
+</div>
+<div class=3D"line number8 index7 alt1">
+<code class=3D"java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+<code class=3D"java plain">Button button =3D (Button) activity.findViewById=
+(<a href=3D"http://R.id" class=3D"external-link" rel=3D"nofollow">R.id</a>.=
+button);</code>
+</div>
+<div class=3D"line number9 index8 alt2">
+<code class=3D"java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+<code class=3D"java plain">TextView results =3D (TextView) activity.findVie=
+wById(<a href=3D"http://R.id" class=3D"external-link" rel=3D"nofollow">R.id=
+</a>.results);</code>
+</div>
+<div class=3D"line number10 index9 alt1">
+&nbsp;
+</div>
+<div class=3D"line number11 index10 alt2">
+<code class=3D"java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+<code class=3D"java plain">button.performClick();</code>
+</div>
+<div class=3D"line number12 index11 alt1">
+<code class=3D"java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code>
+<code class=3D"java plain">assertThat(results.getText().toString()).isEqual=
+To(</code>
+<code class=3D"java string">"Robolectric Rocks!"</code>
+<code class=3D"java plain">);</code>
+</div>
+<div class=3D"line number13 index12 alt2">
+<code class=3D"java spaces">&nbsp;&nbsp;</code>
+<code class=3D"java plain">}</code>
+</div>
+<div class=3D"line number14 index13 alt1">
+<code class=3D"java plain">}</code>
+</div>
+</div></th>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Robolectric=EC=9D=80 Android SDK classes=EB=A5=BC =EC=9E=AC=EC=82=AC=EC=
+=9A=A9=EC=9D=B4 =EA=B0=80=EB=8A=A5=ED=95=98=EB=8F=84=EB=A1=9D =EB=A7=8C=EB=
+=93=A4=EC=96=B4 =EC=A3=BC=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</p=
+>
+<h2 id=3D"id-2.Robolectric=EC=9D=84=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C=EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8=ED=85=
+=8C=EC=8A=A4=ED=8A=B8-SDK,Resources,NativeMethod=EC=97=90=EB=8C=80=ED=95=9C=
+Emulation=EC=9D=B4=EA=B0=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4">SDK, Resou=
+rces, Native Method=EC=97=90 =EB=8C=80=ED=95=9C Emulation=EC=9D=B4 =EA=B0=
+=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4</h2>
+<p>Robolectric=EC=9D=80 view, resource loading =EA=B3=BC =EA=B0=99=EC=9D=B4=
+ C=EC=97=90=EC=84=9C =EA=B5=AC=ED=98=84=EB=90=98=EB=8A=94 native=EC=BD=94=
+=EB=93=9C=EB=A5=BC =EB=8B=A4=EB=A3=B0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=
+=EB=8B=A4.</p>
+<p>=EC=9D=B4=EA=B2=83=EC=9D=80 =EC=9A=B0=EB=A6=AC=EA=B0=80 =EC=8B=A4=EC=A0=
+=9C =EB=94=94=EB=B0=94=EC=9D=B4=EC=8A=A4=EC=97=90=EC=84=9C =ED=95=98=EB=8A=
+=94=EA=B2=83 =EC=B2=98=EB=9F=BC =ED=85=8C=EC=8A=A4=ED=8C=85=EC=9D=84 =ED=95=
+=A0 =EC=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D =EB=8F=84=EC=99=80=EC=A4=8D=EB=8B=
+=88=EB=8B=A4.</p>
+<p>=EB=98=90=ED=95=9C =EC=9D=B4=EA=B2=83=EC=9D=80 =EB=B6=84=EB=AA=85=ED=95=
+=9C SDK method=EB=A5=BC =EA=B0=9C=EB=B0=9C=ED=95=98=EB=8A=94 =EA=B2=83=EC=
+=9D=84 =EC=89=BD=EA=B2=8C =ED=95=A0 =EC=88=98=EC=9E=88=EB=8F=84=EB=A1=9D =
+=ED=95=B4=EC=A4=8D=EB=8B=88=EB=8B=A4.</p>
+<h2 id=3D"id-2.Robolectric=EC=9D=84=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C=EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8=ED=85=
+=8C=EC=8A=A4=ED=8A=B8-Emulator=EB=B0=96=EC=97=90=EC=84=9C=ED=85=8C=EC=8A=A4=
+=ED=8A=B8=ED=95=A0=EC=88=98=EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.">Emulator =
+=EB=B0=96=EC=97=90=EC=84=9C =ED=85=8C=EC=8A=A4=ED=8A=B8 =ED=95=A0 =EC=88=98=
+ =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</h2>
+<p>Robolectric=EC=9D=80 emulator=EC=97=86=EC=9D=B4 =EC=BB=B4=ED=93=A8=ED=84=
+=B0=EC=97=90=EC=84=9C =EB=98=90=EB=8A=94 CI JVM =ED=99=98=EA=B2=BD=EC=97=90=
+=EC=84=9C =EC=A7=80=EC=86=8D=EC=A0=81=EC=9D=B8 =ED=85=8C=EC=8A=A4=ED=8A=B8 =
+=EA=B0=9C=EB=B0=9C=EC=9D=B4 =EA=B0=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4.<=
+/p>
+<p>=EB=94=B0=EB=9D=BC=EC=84=9C packaging, installing =EA=B3=BC =EA=B0=99=EC=
+=9D=80=EC=9E=91=EC=97=85=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=98=EC=A7=80 =EC=
+=95=8A=EA=B3=A0 =EB=AA=87=EB=B6=84=EC=9D=B4 =EC=86=8C=EC=9A=94=EB=90=98=EB=
+=8A=94 =EC=9E=91=EC=97=85=EC=97=90 =EB=8C=80=ED=95=B4=EC=84=9C =EB=B9=A0=EB=
+=A5=B4=EA=B2=8C =EC=B2=98=EB=A6=AC=ED=95=98=EA=B3=A0 =EB=A6=AC=ED=8C=A9=ED=
+=86=A0=EB=A7=81=ED=95=98=EB=8A=94=EB=8D=B0 =EB=8F=84=EC=9B=81=EC=9D=84 =EC=
+=A4=8D=EB=8B=88=EB=8B=A4.</p>
+<h2 id=3D"id-2.Robolectric=EC=9D=84=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C=EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8=ED=85=
+=8C=EC=8A=A4=ED=8A=B8-Mock=EC=9D=84=EB=A7=8C=EB=93=9C=EB=8A=94=EC=9E=91=EC=
+=97=85=EC=9D=B4=ED=95=84=EC=9A=94=ED=95=98=EC=A7=80=EC=95=8A=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.">Mock=EC=9D=84 =EB=A7=8C=EB=93=9C=EB=8A=94 =EC=9E=91=EC=97=85=
+=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=
+=EB=8B=A4.</h2>
+<p>Robolectric=EC=9D=84 =EB=8C=80=EC=B2=B4=ED=95=98=EB=8A=94 =EB=8B=A4=EB=
+=A5=B8 =ED=94=84=EB=A1=9C=EC=A0=9D=ED=8A=B8 Mockito=EA=B0=99=EC=9D=80 =EA=
+=B2=83=EC=9D=80 Android SDK=EC=97=90 =EB=8C=80=ED=95=9C Mock=EC=9E=91=EC=97=
+=85=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=A9=EB=8B=88=EB=8B=A4.</p>
+<p>=EC=9D=B4=EA=B2=83=EC=9D=80 =EC=9C=A0=ED=9A=A8=ED=95=9C =EB=B0=A9=EB=B2=
+=95=EC=9D=B4=EC=A7=80=EB=A7=8C, =EC=A2=85=EC=A2=85 App=EA=B0=9C=EB=B0=9C=EC=
+=97=90 =EC=9E=88=EC=96=B4 =ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=BC=80=EC=9D=B4=EC=
+=8A=A4=EA=B0=80 =EB=8D=94 =EB=A7=8E=EC=9D=B4 =EA=B5=AC=ED=98=84=EB=90=98=EB=
+=8A=94 =EC=83=81=ED=99=A9=EC=9D=B4 =EB=B0=9C=EC=83=9D=EB=90=A9=EB=8B=88=EB=
+=8B=A4.</p>
+<p>Robolectric=EC=9D=80 black box testing =EC=9D=84 =EC=A7=80=EC=9B=90=ED=
+=95=98=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 Android =EA=B5=AC=ED=98=84=EC=
+=97=90 =EC=9E=88=EC=96=B4 Refactroing=EA=B3=BC =EA=B0=99=EC=9D=80 =EC=9E=91=
+=EC=97=85=EC=97=90 =EC=B4=88=EC=A0=90=EC=9D=84 =EB=A7=9E=EC=B6=9C=EC=88=98 =
+=EC=9E=88=EB=8F=84=EB=A1=9D =EB=8F=84=EC=99=80=EC=A4=8D=EB=8B=88=EB=8B=A4.<=
+/p>
+<p><br></p>
+<p><br></p>
+<h1 id=3D"id-2.Robolectric=EC=9D=84=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C=EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8=ED=85=
+=8C=EC=8A=A4=ED=8A=B8-.NaverLabs=EC=9D=98=EC=98=A4=ED=94=88=EB=B0=9C=ED=91=
+=9C=EC=9E=90=EB=A3=8C">. Naver Labs=EC=9D=98 =EC=98=A4=ED=94=88 =EB=B0=9C=
+=ED=91=9C=EC=9E=90=EB=A3=8C</h1>
+<p><a href=3D"https://www.slideshare.net/deview/5robolectric" class=3D"exte=
+rnal-link" rel=3D"nofollow">https://www.slideshare.net/deview/5robolectric<=
+/a></p>
+<p>. robolectric=EC=9D=84 =EC=93=B0=EB=A9=B4 =EB=94=B0=EB=A1=9C Mockito=EB=
+=A1=9C =EB=A7=8E=EC=9D=B4 Mock=EC=9D=84 =EB=A7=8C=EB=93=A4=EC=96=B4 =EC=A3=
+=BC=EC=A7=80 =EC=95=8A=EC=95=84=EB=8F=84 =EB=A7=8E=EC=9D=B4 =EC=A0=9C=EA=B3=
+=B5=EB=90=9C=EB=8B=A4.</p>
+<p>. =EA=B7=B8 =EC=99=B8 REST API =ED=98=B8=EC=B6=9C =EA=B0=99=EC=9D=80 =EB=
+=B3=84=EB=8F=84 Mocking=EC=9D=84 =EC=A7=80=EC=9B=90=ED=95=B4 =EC=A3=BC=EB=
+=8A=94 =EB=9D=BC=EC=9D=B4=EB=B8=8C=EB=9F=AC=EB=A6=AC=EB=93=A4 =EC=86=8C=EA=
+=B0=9C</p>
+<p>. =EA=B2=B0=EB=A1=A0 :</p>
+<p>(a) UI =EC=98=81=EC=97=AD=EC=9D=98 =ED=85=8C=EC=8A=A4=ED=8A=B8=EC=97=90 =
+=EC=9D=B4=EA=B1=B8=EB=A1=9C =EB=84=88=EB=AC=B4 =EB=A7=8E=EC=9D=80 =EA=B8=B0=
+=EB=8C=80=EB=A5=BC =EA=B1=B8=EC=A7=80=EB=8A=94 =EB=A7=90=EC=9E=90.</p>
+<p>(b) =EB=AC=B8=EC=9E=90=EC=97=B4, =EB=82=A0=EC=A7=9C=EC=B2=98=EB=A6=AC, =
+=ED=94=84=EB=A1=9C=ED=86=A0=EC=BD=9C =ED=8C=8C=EC=8B=B1=EC=98=81=EC=97=AD=
+=EC=97=90 =EC=9E=98 =EC=93=B0=EC=9E=90. =ED=8A=B9=ED=9E=88 =EC=98=88=EC=99=
+=B8=EC=83=81=ED=99=A9 =EC=B2=B4=ED=81=AC</p>
+<p>(c) =ED=85=8C=EC=8A=A4=ED=8A=B8=EC=9D=98 =EC=9D=B4=EB=93=9D=EC=9D=B4 =EB=
+=86=92=EC=9D=80 =EC=98=81=EC=97=AD=EC=9D=84 =EB=B6=84=EB=A6=AC=ED=95=B4=EC=
+=84=9C =EC=84=A4=EA=B3=84=ED=95=98=EB=9D=BC =E2=86=90 UI =EC=9A=94=EC=86=8C=
+=EC=99=80 =EB=B6=84=EB=A6=AC=ED=95=B4=EC=84=9C =EC=BD=94=EB=94=A9</p>
+<p>(d) =EC=95=88=EB=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C =ED=85=8C=EC=8A=A4=ED=
+=8A=B8=EB=8A=94 =EB=82=9C=EA=B4=80=EC=9D=B4 =EB=A7=8E=EB=8B=A4. =ED=8A=B9=
+=ED=9E=88 =EB=8A=90=EB=A6=B0 =EC=8B=A4=ED=96=89=EC=86=8D=EB=8F=84. =EC=97=
+=AC=EA=B8=B0=EC=84=9C Robolectric=EC=9D=B4 =EB=8F=84=EC=9B=80=EC=9D=B4 =EB=
+=A7=8E=EC=9D=B4 =EB=90=9C=EB=8B=A4</p>
+<p><br></p>
+<h1 id=3D"id-2.Robolectric=EC=9D=84=EC=9D=B4=EC=9A=A9=ED=95=9C=EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C=EC=BD=94=EB=93=9C=EB=A0=88=EB=B2=A8=ED=85=
+=8C=EC=8A=A4=ED=8A=B8-.RobolectricGettingStarted(inAndroidStudio?)">. Robol=
+ectric&nbsp;GettingStarted&nbsp;(in Android Studio?)</h1>
+<p><a href=3D"http://ezcocoa.com/?p=3D2497" class=3D"external-link" rel=3D"=
+nofollow">http://ezcocoa.com/?p=3D2497</a></p>
+<p><a href=3D"http://robolectric.org/getting-started/" class=3D"external-li=
+nk" rel=3D"nofollow">http://robolectric.org/getting-started/</a></p>
+<p>&nbsp;</p>
+<p><br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+</p>
+    </div>
+</body>
+</html>
+------=_Part_1723_1023506879.1518497451690--
